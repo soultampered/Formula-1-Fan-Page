@@ -1,92 +1,30 @@
 // List of Showcased Drivers
 window.onload = replaceSrc;
 
-//Picks a randomly selected stream from the above list
-var driverPortraitList = [
-	"Media/Portraits/Albon_portrait.png",
-	"Media/Portraits/Bottas_portrait.png",	
-	"Media/Portraits/Gasly_portrait.png",
-	"Media/Portraits/Giovinazzi_portrait.png",
-	"Media/Portraits/Grojean_portrait.png",
-	"Media/Portraits/Hamilton_portrait.png",
-	"Media/Portraits/Kvyat_portrait.png",
-	"Media/Portraits/Latifi_portrait.png",
-	"Media/Portraits/Leclerc_portrait.png",
-	"Media/Portraits/Magnussen_portrait.png",
-	"Media/Portraits/Norris_portrait.png",
-	"Media/Portraits/Ocon_portrait.png",
-	"Media/Portraits/Perez_portrait.png",
-	"Media/Portraits/Raikkonen_portrait.png",
-	"Media/Portraits/Ricciardo_portrait.png",
-	"Media/Portraits/Russell_portrait.png",
-	"Media/Portraits/Sainz_portrait.png",
-	"Media/Portraits/Stroll_portrait.png",
-	"Media/Portraits/Verstappen_portrait.png",
-	"Media/Portraits/Leclerc_portrait.png",
-	];
+var Albon = {picture:"Media/Portraits/Albon_portrait.png", link:"https://www.formula1.com/en/drivers/alexander-albon.html"};
+var Bottas = {picture:"Media/Portraits/Bottas_portrait.png", link:"https://www.formula1.com/en/drivers/valtteri-bottas.html"};		
+var Gasly =	{picture:"Media/Portraits/Gasly_portrait.png", link:"https://www.formula1.com/en/drivers/pierre-gasly.html"};
+var Giovinazzi = {picture:"Media/Portraits/Giovinazzi_portrait.png", link:"https://www.formula1.com/en/drivers/antonio-giovinazzi.html"};
+var Grosjean = {picture:"Media/Portraits/Grojean_portrait.png", link:"https://www.formula1.com/en/drivers/romain-grosjean.html"};
+var Hamilton = {picture:"Media/Portraits/Hamilton_portrait.png", link:"https://www.formula1.com/en/drivers/lewis-hamilton.html"};
+var	Kvyat = {picture"Media/Portraits/Kvyat_portrait.png", link:"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Latifi = {picture:"Media/Portraits/Latifi_portrait.png", link:"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Leclerc = {picture:"Media/Portraits/Leclerc_portrait.png", link:"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var Magnussen = {picture:"Media/Portraits/Magnussen_portrait.png", link:"https://www.formula1.com/en/drivers/kevin-magnussen.html"};
+var	Norris = {picture:"Media/Portraits/Norris_portrait.png", link:"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Ocon = {picture:"Media/Portraits/Ocon_portrait.png", link"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Perez = {picture:"Media/Portraits/Perez_portrait.png", link"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Raikkonen = {picture:"Media/Portraits/Raikkonen_portrait.png", link:"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Ricciardo = {picture:"Media/Portraits/Ricciardo_portrait.png", link"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Russell = {picture:"Media/Portraits/Russell_portrait.png", link:"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Sainz = {picture:"Media/Portraits/Sainz_portrait.png", link:"https://www.formula1.com/en/drivers/carlos-sainz.html"};
+var	Stroll = {picture:"Media/Portraits/Stroll_portrait.png", link:"https://www.formula1.com/en/drivers/lance-stroll.html"};
+var	Verstappen = {picture:"Media/Portraits/Verstappen_portrait.png", link:"https://www.formula1.com/en/drivers/max-verstappen.html"};
+var Vettel = {icture:"Media/Portraits/Vettel_portrait.png", link:"https://www.formula1.com/en/drivers/sebastian-vettel.html"};
 
+//Picks a randomly selected stream from the above list
+var driverPortraitList = [Albon, Bottas, Gasly, Giovinazzi, Grosjean, Hamilton, Kvyat, Latifi, Leclerc, Magnussen, Norris, Ocon, Perez, Raikkonen, Ricciardo, Russell, Sainz, Stroll, Verstappen, Vettel];
 var randomPortrait = driverPortraitList[Math.floor(Math.random() * driverPortraitList.length)];
 function replaceSrc() {
 	document.getElementById("showcaseImage").src = randomPortrait;
 }
-/*
-switch(){
-	case 0:
-
-		break;
-	case 1:
-
-		break;
-	case 2:
-
-		break;
-	case 3:
-
-		break;
-	case 4:
-
-		break;
-	case 5:
-
-		break;
-	case 6:
-
-		break;
-	case 7:
-
-		break;
-	case 8:
-
-		break;
-	case 9:
-
-		break;
-	case 10:
-
-		break;
-	case 11:
-
-		break;
-	case 12:
-
-		break;
-	case 13:
-
-		break;
-	case 14:
-
-		break;
-	case 15:
-
-		break;
-	case 16:
-
-		break;
-	case 17:
-
-		break;
-	case 18:
-
-		break;
-	case 19:	
-}*/
