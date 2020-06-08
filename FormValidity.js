@@ -1,4 +1,4 @@
-//Checks form validity
+//Checks form validity -wip-
 
 
 //not enough characters
