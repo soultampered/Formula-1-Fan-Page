@@ -1,5 +1,5 @@
 
-export drivers;
+
 //List of Current Formula 1 Drivers
 var drivers = [
 		{driver:"Alexander Albon",
@@ -102,3 +102,5 @@ var drivers = [
 		 link:"https://www.formula1.com/en/drivers/sebastian-vettel.html"
 		}
 ];
+
+module.exports = {drivers;

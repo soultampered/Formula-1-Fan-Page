@@ -102,7 +102,7 @@
 // 		}
 // ];
 
-import {drivers} from "VariableList";
+var drivers = require("./VariableList.js");
 
 //Picks a randomly selected stream from the above list
 var randomPick = Math.floor(Math.random() * Math.floor(drivers.length - 1));
