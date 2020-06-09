@@ -8,20 +8,20 @@
 </head>
 
 <body>
-	<header>
+	<header><!--Contains the Sports Logo and Navigation Menu-->
 		<div>
 			<p>LOGO GOES HERE</p>
 		</div>
 		<nav>
 			<ul>
-				<li><a href="" title="">Drivers</a>
-				<li><a href="" title="">Teams</a>
-				<li><a href="" title="">tracks</a></li>
+				<li><a href="Drivers.html" title="Driver List">Drivers</a>
+				<li><a href="Teams.html" title="Teams List">Teams</a>
+				<li><a href="Venues.html" title="Track List">tracks</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<main>
+	<main><!--This is a Form which will ask users to identify themselves and declare which race they will be attending this year-->
 		<h1>Tell Us Which Race You'll Be Attending</h1>
 
 		<div>
@@ -50,36 +50,39 @@
 						<option>Mexico</option>
 						<option>Brazil</option>
 						<option>Abu Dhabi</option>
-					</select>
+					</select>	
 
 				<label>First Name</label>
-				<input type="" name="" placeholder="First Name...">
+				<input type="text" name="First Name" id="id1" placeholder="First Name..." minlength="2">
 
 				<label>Last Name</label>
-				<input type="" name="" placeholder="Last Name...">
+				<input type="text" name="Last Name" id="id1" placeholder="Last Name..." minlength="2">
 
 				<label># Of Guests Attending</label>
-				<input type="" name="" placeholder="0">
+				<input type="number" name="Number of Guests" id="validateGuests" placeholder="including yourself.." min="1">
 
 				<label>Leave a Comment</label>
-				<input type="" name="" placeholder="Tell what you're going to do while there" size="100px" style="height: 200px">
+				<input type="text" name="Comment" id="commentCheck" placeholder="Tell what you're going to do while there" size="100px" style="height: 200px" maxlength="500">
 
-				<button>Submit</button>
+				<input type="submit" name="Submit" onclick="validateName()">
 					
 			</form>
 		</div>
 	</main>
-	
 	<footer>
+		<div><!--Footer Menu-->
 			<ul>
 				<li><a href="Footer/TermsOfUse.html" title="Terms of Use">Terms of Service</a>
 				<li><a href="Footer/PrivacyPolicy.html" title="">Privacy Policy</a>
+				<li><a href="Footer/ContactUs.html" title="ContactUs">Contact Us</a>
 				<li><a href="https://www.formula1.com" title="Formula 1">Link to Formula 1</a></li>
 			</ul>
 		</div>
-		<div>
+		<div><!--Copyright Information-->
 			<p>Formula 1 Fan Page &#169; 2019&#46;All Rights Reserved&#46;</p>
 		</div>
 	</footer>
+<script type="text/javascript" src="../jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="../FormValidity.js"></script>
 </body>
 </html>

@@ -1,29 +1,31 @@
 //Checks form validity -wip-
 
 
-//not enough characters
-function myFunction() {
-  var txt = "";
-  if (document.getElementById("id1").validity.rangeUnderflow) {
-    txt = "Value too small";
+function validateName()
+{
+  var firstName = document.getElementById(id1);
+  var lastName = document.getElementById(id1);
+
+  if (firstName.validity.valueMissing, lastName.validity.valueMissing){    //if there is no data in the form
+  
+    input.setCustomValidtiy("Please enter your name");
+    input.reportValidtiy();
   }
-  document.getElementById("demo").innerHTML = txt;
+
+  else if (firstName.value.length > minlength, lastName.value.length > minlength) {  //if the text field is less than 2 character
+    input.setCustomValidtiy("Names must be a minimum 2 characters");
+    input.reportValidtiy();
+  }
+
+  else  {
+    input.setCustomValidtiy("");
+    input.reportValidtiy();
+  }
+
 }
 
-//too many characters
-function myFunction() {
-  var txt = "";
-  if (document.getElementById("id1").validity.rangeOverflow) {
-    txt = "Value too small";
-  }
-  document.getElementById("demo").innerHTML = txt;
-}
+
+// function validateGuests(){
 
 
-//overall validity
-function myFunction() {
-  var inpObj = document.getElementById("id1");
-  if (!inpObj.checkValidity()) {
-    document.getElementById("demo").innerHTML = inpObj.validationMessage;
-  }
-}
+// }
