@@ -22,50 +22,122 @@
 	</header>
 
 	<main><!--This is a Form which will ask users to identify themselves and declare which race they will be attending this year-->
-		<h1>Tell Us Which Race You'll Be Attending</h1>
 
 		<div>
-			<form>
-				<label>Country</label>
-					<select>Country
-						<option>Australia</option>
-						<option>Bahrain</option>
-						<option>Vietnam</option>
-						<option>China</option>
-						<option>Netherlands</option>
-						<option>Spain</option>
-						<option>Monaco</option>
-						<option>Azerbaijan</option>
-						<option>Canada</option>
-						<option>France</option>
-						<option>Austria</option>
-						<option>Great Britain</option>
-						<option>Hungary</option>
-						<option>Belgium</option>
-						<option>Italy</option>
-						<option>Singapore</option>
-						<option>Russia</option>
-						<option>Japan</option>
-						<option>United States</option>
-						<option>Mexico</option>
-						<option>Brazil</option>
-						<option>Abu Dhabi</option>
-					</select>	
+			<form id="contactForm" name="mainForm">
+				<h1>Race Declaration</h1>
+					<p>If you plan on attending a race this year, please fill out this form and let us know! All submissions will be entered in to win a pair of paddock passes to a race of their choosing</p>
 
-				<label>First Name</label>
-				<input type="text" name="First Name" id="id1" placeholder="First Name..." minlength="2">
+						<section>
+			
+							<h2>Contact Information</h2>
+							<p>Required Fields are followed by a <strong><abbr title="required">*</abbr></strong></p>
+							
+								<p>
+									<label>
+										<span>First Name: </span>
+									</label>
+									
+									<input type="text" id="firstName" name="first" placeholder="First Name..." minlength="2">
+								</p>
+								<p>
+									<label>
+										<span>Last Name: </span>
+									</label>
 
-				<label>Last Name</label>
-				<input type="text" name="Last Name" id="id1" placeholder="Last Name..." minlength="2">
+									<input type="text" id="lastName" name="last" placeholder="Last Name..." minlength="2">
+								</p>
+								<p>
+									<label for="date">
+										<span>Date of Birth: </span>
+									</label>
 
-				<label># Of Guests Attending</label>
-				<input type="number" name="Number of Guests" id="validateGuests" placeholder="including yourself.." min="1">
+									<input type="date" id="birthday" name="birthDate">
+								</p>
+								<p>
+									<label>
+										<span>Address: </span>
+									</label>
 
-				<label>Leave a Comment</label>
-				<input type="text" name="Comment" id="commentCheck" placeholder="Tell what you're going to do while there" size="100px" style="height: 200px" maxlength="500">
+									<input type="" name="">
+								</p>
+								<p>
+									<label>
+										<span>Email: </span>
+										<strong><abbr title="required">*</abbr></strong>
+									</label>
+									<input type="email" name="userMail" id="">
+								</p>
+						</section>
 
-				<input type="submit" name="Submit" onclick="validateName()">
-					
+						<section>
+							<h2>Tell Us Which Race You'll Be Attending</h2>
+							<p>we're curious...it's for Science!</p>
+
+							<label>
+								<span>Country: </span>
+							</label>
+								<select id="countryList" name="raceList">Country
+									<option>Australia</option>
+									<option>Bahrain</option>
+									<option>Vietnam</option>
+									<option>China</option>
+									<option>Netherlands</option>
+									<option>Spain</option>
+									<option>Monaco</option>
+									<option>Azerbaijan</option>
+									<option>Canada</option>
+									<option>France</option>
+									<option>Austria</option>
+									<option>Great Britain</option>
+									<option>Hungary</option>
+									<option>Belgium</option>
+									<option>Italy</option>
+									<option>Singapore</option>
+									<option>Russia</option>
+									<option>Japan</option>
+									<option>United States</option>
+									<option>Mexico</option>
+									<option>Brazil</option>
+									<option>Abu Dhabi</option>
+								</select>
+
+							<label>
+								<span># Of Guests Attending: </span>
+							</label>
+							
+							<input type="number" id="numberGuests" name="guests" placeholder="including yourself.." min="1">
+						</section>
+
+						<section>
+							<h2>Feedback</h2>
+								<label>Leave a Comment:</label>
+								<input type="text" id="commentField" name="comment" placeholder="Tell what you're going to do while there" size="100px" style="height: 200px" maxlength="500">
+
+								<ul>
+									<li>
+										<input type="radio" name="">
+										<label>Subscribe to our newsletter</label>
+
+									</li>
+
+									<li>
+										<input type="radio" name="">
+										<label>Consent - I confirm I am at least the age of majority in my home territory</label>
+
+									</li>
+
+									<LI>
+										<input type="radio" name="">
+										<label>Just for you Theo: </label>
+									</li>
+								</ul>
+						</section>
+				
+					<p>
+					<button type="submit" value="submit">Submit</button>
+				</p>	
+
 			</form>
 		</div>
 	</main>
