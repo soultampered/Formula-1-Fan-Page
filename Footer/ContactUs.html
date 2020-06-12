@@ -32,21 +32,27 @@
 							<h2>Contact Information</h2>
 							<p>Required Fields are followed by a <strong><abbr title="required">*</abbr></strong></p>
 								<span id="mynamehint"></span>
-								<span id="formerror"></span>
+								
 								
 							<ol>
 								<li>
-									<label for="myname">Name *</label>
-									<input type="text" name="myname" id="myname" title="Please enter your name" placeholder="Last, First" required="True">
+									<span id="nameError"></span>
+								</li>
+								<li><label for="myname">Name *</label>
+									<input type="text" name="myname" id="myname" title="Please enter your name" placeholder="Last, First">
 								</li>
 
 								<li>
-									<label>Date of Birth</label>
+									<span id="dateError"></span>
+								</li>
+								<li><label for="date">Date of Birth</label>
 									<input type="date" name="date" id="date" title="Please enter your birth date">
 								</li>
 
 								<li>
-									<label>Email *</label>
+									<span id="emailError"></span>
+								</li>
+								<li><label for="email">Email *</label>
 								<input type="email" name="email" id="email" title="Please enter your email address" placeholder="email..">
 								</li>
 							</ol>
@@ -59,7 +65,7 @@
 							<label>
 								<span>Country: </span>
 							</label>
-								<select id="countryList" name="raceList">Country
+								<select id="countrylist" name="countrylist">Country
 									<option>Australia</option>
 									<option>Bahrain</option>
 									<option>Vietnam</option>
