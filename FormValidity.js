@@ -26,18 +26,20 @@ document.mainForm.date.onchange=function()  {
 
 
 //Checks if there is an email address, and also if the email address is in a valid format
-document.mainForm.email.onchange=function()  {
-  var noName = document.mainForm.email.value;
+document.mainForm.email.onblur=function()  {
+  var noEmail = document.mainForm.email.value;
+  var emailError = document.getElementById('emailError');
 
-  if (noName.indexOf("@")) {
-  document.getElementById("emailrror").innerHTML = "Email address format invalid";
+  if (noEmail.indexOf("@") && noEmail.indexOf(".com") === -1) {
+  
+    emailError.innerHTML = "Invalid Email format!";
+  
+  } else if (noEmail === "") {
+  
+    emailError.innerHTML = "Email Address is required!";
+  
+  } else {
+
+    emailError.innerHTML = "";
   }
 }
-
-document.mainForm.email.onblur=function()  {
-  var noName = document.mainForm.email.value;
-
-  if (noName === "") {
-    document.getElementById("emailError").innerHTML = "Email address is required";
-  }
-} //Validation Error - Email Address
