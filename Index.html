@@ -5,12 +5,15 @@
 	<meta name="description" content="A Formula 1 Fan Page, used to showcase FE dev skills">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formula 1 Fan Page</title>
+	<link rel="stylesheet" type="text/css" href="css/IndexStyles.css">
 </head>
 
-<body>
-	<header><!--Contains the Sports Logo and Navigation Menu-->
+<body class="site">
+	<header class="masthead"><!--Contains the Sports Logo and Navigation Menu-->
 		<div>
-			<p>LOGO GOES HERE</p>
+			<a href="index.html">
+				<img src="Media/f1_logo.png"></a>
+			<h1>Formula 1</h1>
 		</div>
 		<nav>
 			<ul>
@@ -21,59 +24,62 @@
 		</nav>
 	</header>
 
-	<main>
-	<h1>Formula 1</h1>
- <!--promotes and displays a randomly selected driver from the current lineup-->
-		<h2><a href="" title="">Showcased Driver</a>
-		</h2>
-			<div>
-				<a id="showcaseLink" href="" title=""><img id="showcaseImage" src=""></a>
-			</div>
+	<main class="main-area">
+		<section class="showcase">
+ 			<h2><a href="" title="">Showcased Driver</a></h2><!--displays a randomly selected driver from current lineup-->
+				<div>
+					<a id="showcaseLink" href="" title=""><img id="showcaseImage" src=""></a>
+				</div>
+		</section>
 	
 <!--Not finished yet-->
-
-		<h2><a href="" title="">This Weeks Track</a>
+<!--<h2><a href="" title="">This Weeks Track</a>
 		</h2>
 			<div>
 				<a href="" title=""><img src=""></a>
-			</div>
-			
+			</div> -->
 
 <!--General News section-->
-		<h2><a href="" title="">Formula 1 News</a>
-	 	</h2>
-	 		<div>
-	 			<ul>
-	 				<li><a href="WilliamsInvestment.html" title="williams-sale-serious-people-brawn">
-	 					<img src="Media/William_F1.jpg">
-	 					<p><span>"Serious people" considering Williams investment - Brawn</span></p>
-	 					</a>
-	 				
-	 				<li><a href="" title="hungarian-gp-contract-extended-2027">
-	 					<img src="Media/Hungary_f1.jpg">
-	 					<p><span>Hungarian GP contract extended to 2027</span></p>
-	 					</a>
-	 				
-	 				<li><a href="" title="f1-mix-up-tyre-compounds-double-headers">
-	 					<img src="Media/Redbull_f1.jpg">
-	 					<p><span>F1 could mix up tyre compounds to spice up double-headers</span></p>
-	 					</a>
-	 				
-	 				<li><a href="" title="aston-martin-headline-names-vettel">
-	 					<img src="Media/Drivers_F1.jpg">
-	 					<p><span>Aston Martin not looking for "headline” names for F1 2021</span></p>
-	 					</a>
-	 				
-	 				<li><a href="" title="hamilton-eau-rouge-bet-kovalainen">
-	 					<img src="Media/Belgium_f1.jpg">
-	 					<p><span>Hamilton Eau Rouge bet showed his class, says Kovalainen</span></p>
-	 					</a>
-	 				</li>
-	 			</ul>
-	 		</div>
+		<section class="news-area">
+			<h2><a href="" title="">Formula 1 News</a></h2>
+	 			<div>
+		 			<ul>
+		 				<li><a href="html/WilliamsInvestment.html" title="williams-sale-serious-people-brawn">
+		 					<img src="Media/William_F1.jpg">
+		 					<h3>"Serious people" considering Williams investment - Brawn</h3>
+		 					<p><span>However, deputy team principal Claire Williams has insisted that the Grove outfit has the funds...</span></p>
+		 					</a>
+		 				
+		 				<li><a href="" title="hungarian-gp-contract-extended-2027">
+		 					<img src="Media/Hungary_f1.jpg">
+		 					<h3>Hungarian GP contract extended to 2027</h3>
+		 					<p><span>The Hungarian Grand Prix will remain on the Formula 1 calendar until 2027 after promoters agreed a one-year extension to the current contract...</span></p>
+		 					</a>
+		 				
+		 				<li><a href="" title="f1-mix-up-tyre-compounds-double-headers">
+		 					<img src="Media/Redbull_f1.jpg">
+		 					<h3>F1 could mix up tyre compounds to spice up double-headers</h3>
+		 					<p><span>Formula 1 could mix up tyre compounds between double-header events in order to liven up the second race of the weekend...</span></p>
+		 					</a>
+		 				
+		 				<li><a href="" title="aston-martin-headline-names-vettel">
+		 					<img src="Media/Drivers_F1.jpg">
+		 					<h3>Aston Martin not looking for "headline” names for F1 2021</h3>
+		 					<p><span>Racing Point Formula 1 team boss Otmar Szafnauer has made it clear that the team isn't in the market for a new driver...</span></p>
+		 					</a>
+		 				
+		 				<li><a href="" title="hamilton-eau-rouge-bet-kovalainen">
+		 					<img src="Media/Belgium_f1.jpg">
+		 					<h3>Hamilton Eau Rouge bet showed his class, says Kovalainen</h3>
+		 					<p><span>A bet that Lewis Hamilton won about how fast he could take Eau Rouge...</span></p>
+		 					</a>
+		 				</li>
+		 			</ul>
+		 		</div>
+		 </section>
 	</main>
 	
-	<footer>
+	<footer class="footerstyles">
 		<aside><!--Ad Stuff.  Link to Google-->
 			<a href="https://www.google.ca" title="Demo add stuff not real">
 				<img src="Media/ad_stuff.png">
@@ -92,8 +98,6 @@
 		</div>
 	</footer>
 	<!--JS Script to randomize showcased drivers-->
-<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-<!-- <script type="module" src="VariableList.js"></script> -->
-<script type="text/Javascript" src="DriverShowcase.js"></script>
+<script type="text/Javascript" src="Javascript/DriverShowcase.js"></script>
 </body>
 </html>

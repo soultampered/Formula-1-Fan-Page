@@ -1,0 +1,26 @@
+/*Official f1 colors are #FF1801 for red*/
+
+.site {
+	display: grid;
+	background-color: grey;
+}
+
+.masthead {
+	display: grid;
+	background-color: yellow;
+}
+
+.main-area {
+	display: grid;
+	background-color: green;
+}
+
+.news-area {
+	display: grid;
+	background-color: pink;
+}
+
+.footerstyles {
+	display: grid;
+	background-color: orange;
+}
