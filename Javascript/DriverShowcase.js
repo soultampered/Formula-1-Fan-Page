@@ -111,6 +111,7 @@ var randomPortrait = drivers[randomPick];
 function replaceSrc() {
 	document.getElementById("showcaseImage").src = randomPortrait.picture;
 	document.getElementById("showcaseLink").href = randomPortrait.link;
+	document.getElementById("showcaseName").innerHTML = randomPortrait.driver;
 }
 
 window.onload = replaceSrc();
