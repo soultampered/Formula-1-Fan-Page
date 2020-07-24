@@ -1,26 +1,43 @@
 /*Official f1 colors are #FF1801 for red*/
 
 .site {
-	display: grid;
-	background-color: grey;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-template-rows: auto 1fr 3fr;
+  grid-template-areas:
+  		"title title"
+  		"news sidebar"
+  		"footer footer"
 }
 
 .masthead {
-	display: grid;
-	background-color: yellow;
+	grid-area: title;
+    background-color: #b46ae3;
 }
 
-.main-area {
-	display: grid;
-	background-color: green;
+.showcase {
+	grid-area: sidebar;
+	background-color: #f49018;
 }
 
 .news-area {
-	display: grid;
-	background-color: pink;
+	grid-area: news;
+	background-color: #70bf40;
 }
 
 .footerstyles {
-	display: grid;
-	background-color: orange;
+	grid-area: footer;
+	background-color: #0265c0;
+}
+
+
+
+.imgstyle {
+	max-width: 500px;
+	max-height: 500px;
+
+}
+.navstyles {
+	grid-area: header;
+
 }
