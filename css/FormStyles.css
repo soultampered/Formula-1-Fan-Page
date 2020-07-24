@@ -1,0 +1,19 @@
+.form.wrapper {
+  margin: auto;
+  width: 90%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+form {
+   display: inline-block;
+   float: center;
+   max-width: 700px;
+   border-color: red;
+   background-color: #FFCCCC;
+}
+
+
+#formerror {
+   color: #FF2121;
+}

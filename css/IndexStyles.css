@@ -38,6 +38,7 @@
 
 }
 .navstyles {
-	grid-area: header;
+	grid-row: 1;
+	grid-column: 2;
 
 }

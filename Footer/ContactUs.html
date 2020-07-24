@@ -4,27 +4,33 @@
 	<meta charset="utf-8">
 	<meta name="description" content="A Formula 1 Fan Page, used to showcase FE dev skills">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Formula 1 Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="../css/FormStyles.css">
+	<title>Formula 1 Fan Page</title>
+
 </head>
 
-<body>
-	<header><!--Contains the Sports Logo and Navigation Menu-->
+<body class="site">
+	<header class="masthead"><!--Contains the Sports Logo and Navigation Menu-->
 		<div>
-			<p>LOGO GOES HERE</p>
+			<a href="index.html">
+				<img src="../Media/f1_logo.png" alt="logo"></a>
+			<h1>Formula 1</h1>
 		</div>
-		<nav>
-			<ul>
-				<li><a href="../Drivers.html" title="Driver List">Drivers</a>
-				<li><a href="../Teams.html" title="Teams List">Teams</a>
-				<li><a href="../Venues.html" title="Track List">tracks</a></li>
-			</ul>
-		</nav>
+		<div class="navstyles">
+			<nav>
+				<ul>
+					<li><a href="Drivers.html" title="Driver List">Drivers</a>
+					<li><a href="Teams.html" title="Teams List">Teams</a>
+					<li><a href="Venues.html" title="Track List">tracks</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
 	<main><!--This is a Form which will ask users to identify themselves and declare which race they will be attending this year-->
 
-		<div>
-			<form id="contactForm" name="mainForm" method="POST">
+		<div class="form.wrapper">
+			<form name="mainForm" method="POST">
 				<h1>Race Declaration</h1>
 					<p>If you plan on attending a race this year, please fill out this form and let us know! All submissions will be entered in to win a pair of paddock passes to a race of their choosing.</p>
 
@@ -41,11 +47,11 @@
 
 
 								<li><label for="date">Date of Birth</label>
-									<input type="text" name="date" id="date" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))">
+									<input type="text" name="date" id="date" placeholder="YYYY-MM-DD" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))">
 								</li>
 
 								<li><label for="email">Email *</label>
-								<input type="email" name="email" id="email" placeholder="email.." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+								<input type="email" name="email" id="email" placeholder="email@domain.xx" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 								</li>
 							</ol>
 						</section>
@@ -57,7 +63,7 @@
 							<label>
 								<span>Country: </span>
 							</label>
-								<select id="countrylist" name="countrylist">Country
+								<select id="countrylist" name="countrylist">
 									<option>Australia</option>
 									<option>Bahrain</option>
 									<option>Vietnam</option>
@@ -92,7 +98,7 @@
 						<section>
 							<h2>Feedback</h2>
 								<label>Leave a Comment:</label>
-								<input type="text" id="commentField" name="comment" placeholder="Tell what you're going to do while there" size="100px" style="height: 200px" maxlength="500">
+								<input type="text" id="commentField" name="comment" placeholder="Tell us what you're going to do while there" size="100px" style="height: 200px" maxlength="500">
 
 								<ul>
 									<li>
@@ -134,6 +140,6 @@
 			<p>Formula 1 Fan Page &#169; 2019&#46;All Rights Reserved&#46;</p>
 		</div>
 	</footer>
-<script type="text/javascript" src="../FormValidity.js"></script>
+<script type="text/javascript" src="../Javascript/FormValidity.js"></script>
 </body>
 </html>
