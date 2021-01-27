@@ -42,3 +42,15 @@
 	grid-column: 2;
 
 }
+
+li {
+	display: inline;
+}
+
+.logo {
+	display: inline;
+}
+
+h1 {
+	display: inline;
+}
