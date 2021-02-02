@@ -1,6 +1,5 @@
-//List of Showcased Drivers
-var drivers = [
-		{name:"Fernando Alonso", //
+var drivers = [//List of Showcased Drivers
+		{name:"Fernando Alonso",
 		picture:"Media/Portraits/Albon_portrait.png",
 		link:"https://www.formula1.com/en/drivers/alexander-albon.html"
 		},
@@ -100,14 +99,12 @@ var drivers = [
 		 link:"https://www.formula1.com/en/drivers/sebastian-vettel.html"
 		}
 ];
-
-//List of Showcased Venues
-var venues = [
+var venues = [//List of Showcased Venues
     {
         venue_RaceTitle: "Bahrain",
         venue_flag: "Media/World_Flags/flagBahrain.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Bahrain.html",
-        venue_raceDate: "2021-03-28"
+        venue_raceDate: new Date(2021, 03, 28, 14, 00)
         },
     {
         venue_name: "San_Marino",
@@ -243,9 +240,14 @@ var venues = [
         }
 
 ];
+var endOfSeason = { //Default Event Showcase display
+        venue_raceTitle: "The Season has finished",
+        venue_flag: "Media/f1_logo.png",
+        venue_link: "https://www.formula1.com",
+        venue_raceDate: "N/A"
+    }
 
-//Picks a randomly selected driver from the above list
-function replaceDriverSrc() {
+function replaceDriverSrc() { //Picks a randomly selected driver from the above list
     var randomPick = Math.floor(Math.random() * Math.floor(drivers.length));
     var randomPortrait = drivers[randomPick];
     
@@ -254,4 +256,19 @@ function replaceDriverSrc() {
 	document.getElementById("driverName").innerHTML = randomPortrait.name;
 }
 
+
+function nextRace() { // If the date is smaller than venue_raceDate, then display the next venue_raceDate
+    var currentDate = new Date();
+    
+    if (currentDate <= venues.venue_raceDate) {
+        document.getElementById("raceFlag").src = venues.venue_flag;
+        document.getElementById("raceLink").href = venues.venue_link;
+        document.getElementById("raceName").innerHTML = venues.venue_name;
+    } else {
+        document.getElementById("raceFlag").src = endOfSeason.venue_flag;
+        document.getElementById("raceLink").href = endOfSeason.venue_link;
+        document.getElementById("raceName").innerHTML = endOfSeason.venue_raceTitle;
+    }
+}
+nextRace();
 window.onload = replaceDriverSrc();
