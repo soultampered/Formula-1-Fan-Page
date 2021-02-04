@@ -263,9 +263,9 @@ function nextRace() { // If the date is smaller than venue_raceDate, then displa
     var i;
     for (i = 0; i <= venues.length; i++) { // Loop through var venues variable and check each interation check if venue_raceDate > current date
             if (new Date() <= venues[i].venue_raceDate) {// If yes, break loop and take that interations object property values
-                document.getElementById("raceFlag").src = venues[1].venue_flag;
-                document.getElementById("raceLink").href = venues[1].venue_link;
-                document.getElementById("raceName").innerHTML = venues[1].venue_RaceTitle;
+                document.getElementById("raceFlag").src = venues.venue_flag;
+                document.getElementById("raceLink").href = venues.venue_link;
+                document.getElementById("raceName").innerHTML = venues.venue_RaceTitle;
             } else {                                    // If no, use endOfSeason variable
                 document.getElementById("raceFlag").src = endOfSeason.venue_flag;
                 document.getElementById("raceLink").href = endOfSeason.venue_link;
