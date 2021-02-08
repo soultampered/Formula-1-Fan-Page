@@ -101,139 +101,139 @@ var drivers = [//List of Showcased Drivers
 ];
 var venues = [//List of Showcased Venues
     {
-        venue_RaceTitle: "Bahrain",
+        venue_raceTitle: "Bahrain",
         venue_flag: "Media/World_Flags/flagBahrain.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Bahrain.html",
         venue_raceDate: new Date("2021-03-28")
         },
     {
-        venue_RaceTitle: "San_Marino",
+        venue_raceTitle: "San_Marino",
         venue_flag: "Media/World_Flags/flagItaly.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Imola.html",
         venue_raceDate: new Date("2021-04-18")
         },
     {    
-        venue_RaceTitle: "China",
+        venue_raceTitle: "China",
         venue_flag: "Media/World_Flags/flagChina.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/China.html",
         venue_raceDate: new Date("2021-05-02")
         },
     {
-        venue_RaceTitle: "Spain",
+        venue_raceTitle: "Spain",
         venue_flag: "Media/World_Flags/flagSpain.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Spain.html",
         venue_raceDate: new Date("2021-05-09")
         },
     {
-        venue_RaceTitle: "Monaco",
+        venue_raceTitle: "Monaco",
         venue_flag: "Media/World_Flags/flagMonaco.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Monaco.html",
         venue_raceDate: new Date("2021-05-23")
         },
     {
-        venue_RaceTitle: "Azerbaijan",
+        venue_raceTitle: "Azerbaijan",
         venue_flag: "Media/World_Flags/flagAzerbaijan.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Azerbaijan.html",
         venue_raceDate: new Date("2021-06-14")
         },
     {
-        venue_RaceTitle: "Canada",
+        venue_raceTitle: "Canada",
         venue_flag: "Media/World_Flags/flagCanada.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Canada.html",
         venue_raceDate: new Date("2021-06-13")
         },
     {
-        venue_RaceTitle: "France",
+        venue_raceTitle: "France",
         venue_flag: "Media/World_Flags/flagFrance.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/France.html",
         venue_raceDate: new Date("2021-06-27")
         },
     {
-        venue_RaceTitle: "Austria",
+        venue_raceTitle: "Austria",
         venue_flag: "Media/World_Flags/flagAustria.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Austria.html",
         venue_raceDate: new Date("2021-07-04")
         },
     {
-        venue_RaceTitle: "Britain",
+        venue_raceTitle: "Britain",
         venue_flag: "Media/World_Flags/flagUnitedKingdom.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Great_Britain.html",
         venue_raceDate: new Date("2021-07-18")
         },
     {
-        venue_RaceTitle: "Hungary",
+        venue_raceTitle: "Hungary",
         venue_flag: "Media/World_Flags/flagHungary.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Hungary.html",
         venue_raceDate: new Date("2021-08-01")
         },
     {
-        venue_RaceTitle: "Belgium",
+        venue_raceTitle: "Belgium",
         venue_flag: "Media/World_Flags/flagBelgium.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Belgium.html",
         venue_raceDate: new Date("2021-08-29")
         },
     {
-        venue_RaceTitle: "Netherlands",
+        venue_raceTitle: "Netherlands",
         venue_flag: "Media/World_Flags/flagNetherlands.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Netherlands.html",
         venue_raceDate: new Date("2021-09-05")
         },
     {
-        venue_RaceTitle: "Italy",
+        venue_raceTitle: "Italy",
         venue_flag: "Media/World_Flags/flagItaly.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Italy.html",
         venue_raceDate: new Date("2021-09-12")
         },
     {
-        venue_RaceTitle: "Russia",
+        venue_raceTitle: "Russia",
         venue_flag: "Media/World_Flags/flagRussia.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Russia.html",
         venue_raceDate: new Date("2021-09-26")
         },
     {
-        venue_RaceTitle: "Singapore",
+        venue_raceTitle: "Singapore",
         venue_flag: "Media/World_Flags/flagSingapore.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Singapore.html",
         venue_raceDate: new Date("2021-10-03")
         },
     {
-        venue_RaceTitle: "Japan",
+        venue_raceTitle: "Japan",
         venue_flag: "Media/World_Flags/flagJapan.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Japan.html",
         venue_raceDate: new Date("2021-10-09")
         },
     {
-        venue_RaceTitle: "United States",
+        venue_raceTitle: "United States",
         venue_flag: "Media/World_Flags/flagUnitedStates.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/United_States.html",
         venue_raceDate: new Date("2021-10-24")
         },
     {
-        venue_RaceTitle: "Mexico",
+        venue_raceTitle: "Mexico",
         venue_flag: "Media/World_Flags/flagMexico.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Mexico.html",
         venue_raceDate: new Date("2021-10-31")
         },
     {
-        venue_RaceTitle: "Brazil",
+        venue_raceTitle: "Brazil",
         venue_flag: "Media/World_Flags/flagBrazil.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Brazil.html",
         venue_raceDate: new Date("2021-11-07")
         },
     {
-        venue_RaceTitle: "Australia",
+        venue_raceTitle: "Australia",
         venue_flag: "Media/World_Flags/flagAustralia.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Australia.html",
         venue_raceDate: new Date("2021-11-21")
         },
     {
-        venue_RaceTitle: "Saudi Arabia",
+        venue_raceTitle: "Saudi Arabia",
         venue_flag: "Media/World_Flags/flagSaudiArabia.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/Saudi_Arabia.html",
         venue_raceDate: new Date("2021-12-05")
         },
     {
-        venue_RaceTitle: "Abu Dhabi",
+        venue_raceTitle: "Abu Dhabi",
         venue_flag: "Media/World_Flags/flagAbuDhabi.jpeg",
         venue_link: "https://www.formula1.com/en/racing/2021/United_Arab_Emirates.html",
         venue_raceDate: new Date("2021-12-11")
@@ -244,7 +244,7 @@ var endOfSeason = { //Default Event Showcase display
         venue_flag: "Media/f1_logo.png",
         venue_link: "https://www.formula1.com",
         venue_raceDate: "N/A"
-    };
+};
 
 function replaceDriverSrc() { //Picks a randomly selected driver from the above list
     var randomPick = Math.floor(Math.random() * Math.floor(drivers.length));
@@ -263,15 +263,15 @@ function combineDate() {
     var dateString = '' + year + '-' + (month <= 9 ? '0' + month : month) + '-' + (day <= 9 ? '0' + day : day);
     return dateString;
 };
+
 function nextRace() { // If the date is smaller than venue_raceDate, then display the next venue_raceDate
-    combineDate(); // date string
     var currentDate = Date(combineDate());
     var i;
     for (i = 0; i <= venues.length; i++) { // Loop through var venues variable and check each interation check if venue_raceDate > current date
             if (currentDate <= venues.venue_raceDate) {// If yes, break loop and take that interations object property values
                 document.getElementById("raceFlag").src = venues.venue_flag;
                 document.getElementById("raceLink").href = venues.venue_link;
-                document.getElementById("raceName").innerHTML = venues.venue_RaceTitle;
+                document.getElementById("raceName").innerHTML = venues.venue_raceTitle;
             } else {                                    // If no, use endOfSeason variable
                 document.getElementById("raceFlag").src = endOfSeason.venue_flag;
                 document.getElementById("raceLink").href = endOfSeason.venue_link;
@@ -281,4 +281,3 @@ function nextRace() { // If the date is smaller than venue_raceDate, then displa
 }
 
 window.onload = replaceDriverSrc();
-window.onload = nextRace();
