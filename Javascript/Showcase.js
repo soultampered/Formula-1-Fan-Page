@@ -238,14 +238,13 @@ var venues = [//List of Showcased Venues
         venue_link: "https://www.formula1.com/en/racing/2021/United_Arab_Emirates.html",
         venue_raceDate: "2021-12-11"
         }
-
 ];
 var endOfSeason = { //Default Event Showcase display
         venue_raceTitle: "The Season has finished",
         venue_flag: "Media/f1_logo.png",
         venue_link: "https://www.formula1.com",
         venue_raceDate: "N/A"
-    }
+    };
 
 function replaceDriverSrc() { //Picks a randomly selected driver from the above list
     var randomPick = Math.floor(Math.random() * Math.floor(drivers.length));
@@ -264,7 +263,7 @@ function nextRace() { // If the date is smaller than venue_raceDate, then displa
         var day = d.getDate();
         var dateString = '' + year + '-' + month + '-' + day;
         return dateString;
-    }
+    };
     var i;
     for (i = 0; i <= venues.length; i++) { // Loop through var venues variable and check each interation check if venue_raceDate > current date
             if (combineDate() <= venues.venue_raceDate) {// If yes, break loop and take that interations object property values
