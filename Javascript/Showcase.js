@@ -261,7 +261,7 @@ function nextRace() { // If the date is smaller than venue_raceDate, then displa
         var year = d.getFullYear();
         var month = d.getMonth() + 1;
         var day = d.getDate();
-        var dateString = '' + year + '-' + (month <= 9 ? '0' + month : month) + '-' + day;
+        var dateString = '' + year + '-' + (month <= 9 ? '0' + month : month) + '-' + (day <= 9 ? '0' + day : day);
         return dateString;
     };
     var ds = Date(combineDate); // date string
