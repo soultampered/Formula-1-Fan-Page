@@ -266,8 +266,7 @@ function combineDate() {
 
 function nextRace() { // If the date is smaller than venue_raceDate, then display the next venue_raceDate
     var currentDate = Date(combineDate());
-    var i;
-    for (i = 0; i <= venues.length; i++) { // Loop through var venues variable and check each interation check if venue_raceDate > current date
+    for (var i = 0; i <= venues.length; i++) { // Loop through var venues variable and check each interation check if venue_raceDate > current date
             if (currentDate <= venues.raceDate) {// If yes, break loop and take that interations object property values
                 document.getElementById("raceFlag").src = venues.flag;
                 document.getElementById("raceLink").href = venues.link;
@@ -281,3 +280,4 @@ function nextRace() { // If the date is smaller than venue_raceDate, then displa
 }
 
 window.onload = replaceDriverSrc();
+window.onload = nextRace();
