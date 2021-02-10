@@ -267,8 +267,8 @@ function replaceDriverSrc() { //Picks a randomly selected driver from the above 
 function nextRace() {
     var dateObj = new Date();
     var currentTime = dateObj.getTime();
-        for (var i = 0; i <= (venues.length-1); i++) { // Loop through var venues variable and check each interation check if venue_raceDate > current date
-                    if (currentTime <= venues[i].raceDate) {// If yes, break loop and take that interations object property values
+        for (var i = 0; i <= venues.length; i++) { // Loop through var venues variable and check each interation check if venue_raceDate > current date
+                    if (currentTime <= venues.raceDate) {// If yes, break loop and take that interations object property values
                     document.getElementById("raceFlag").src = venues.flag;
                     document.getElementById("raceLink").href = venues.link;
                     document.getElementById("raceName").innerHTML = venues.raceTitle;
