@@ -58,27 +58,23 @@ a:active {
 
 }
 .headerLogo {
-	position: static;
-	display: block;
-	float: left;
-	clear: both;
-	padding: 10px;
+	display: inline-block;
+}
+.logoImage {
+	vertical-align: middle;
+	width: 200px;
+	height: 56px;
 }
 
 .headerTitle {
-	position: static;
-	float: left;
-	display: block;
-	font-family: Titillium Web;
-	text-align: center;
-	margin: auto;
-	clear: auto;
+display: none;
 }
 
 .navBar {
-	display: block;
+	display: inline-block;
 	clear: both;
 	background-color: #3c3731;
+	vertical-align: top;
 }
 
 .navstyles {
