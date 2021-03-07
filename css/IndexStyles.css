@@ -8,7 +8,7 @@
 
 /*Root styles */
 .site {
-	background-color: #f73230;
+	background-color: #f0f0f0;
 }
 
 h1 {
@@ -72,9 +72,12 @@ display: none;
 
 .navBar {
 	display: inline-block;
+	position: relative;
 	clear: both;
 	background-color: #3c3731;
 	vertical-align: top;
+	margin: auto;
+	width: 75%
 }
 
 .navstyles {
@@ -97,6 +100,14 @@ display: none;
 /* Main Body Styles */
 .showcase {
 	background-color: #f49018;
+}
+
+.contentShowcase {
+	display: inline-block
+	position: relative;
+	float: left;
+	margin: auto;
+	width: 50%;
 }
 
 .news-area {
