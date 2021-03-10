@@ -9,6 +9,13 @@
 /*Root styles */
 .site {
 	background-color: #f0f0f0;
+	min-width: 991px;
+    max-width: 1323px;
+    width: 96%;
+    margin: auto;
+}
+body {
+	background: #000000;
 }
 
 h1 {
@@ -24,28 +31,28 @@ a:link {
   	text-decoration: none;
   	color: #fffff6;
   	font-family: Titillium Web;
-	font-size: 24px;
+	font-size: 14px;
 }
 
 a:visited {
   	text-decoration: none;
   	color: #fffff6;
     font-family: Titillium Web;
-	font-size: 24px;
+	font-size: 14px;
 }
 
 a:hover {
   	text-decoration: none;
   	color: #fffff6;
     font-family: Titillium Web;
-	font-size: 24px;
+	font-size: 14px;
 }
 
 a:active {
   	text-decoration: none;
   	color: #fffff6;
   	font-family: Titillium Web;
-  	font-size: 24px;
+  	font-size: 14px;
 }
 
 /* header styles */
@@ -100,6 +107,21 @@ display: none;
 /* Main Body Styles */
 .showcase {
 	background-color: #f49018;
+}
+
+#driverName {
+	display: inline-block;
+}
+#driverImage {
+	float: left;
+}
+
+#raceName {
+	display: inline-block;
+}
+#raceFlag {
+	float: left;
+	height: 206px;
 }
 
 .contentShowcase {
