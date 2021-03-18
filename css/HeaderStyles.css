@@ -1,0 +1,51 @@
+/* header styles */
+.mastHead {
+	width: 100%;
+	height: 100%;
+    background-color: #3c3731;
+}
+
+.headerLogo {
+	min-width: 991px;
+    max-width: 1323px;
+    width: 96%;
+    margin: auto;
+}
+
+.logoImage {
+	vertical-align: middle;
+	width: 200px;
+	height: 56px;
+}
+
+.headerTitle {
+	display: none;
+}
+
+.navBar {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #242424;
+	border-bottom: 1px solid #242424;
+}
+
+.navstyles {
+	list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    min-width: 991px;
+    max-width: 1323px;
+    width: 96%;
+    margin: auto;
+}
+
+.navItems {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0 5px;
+}
+
+.navItems:hover {
+	background-color: #bdb6ae;
+}

@@ -252,7 +252,7 @@ function replaceDriverSrc() { //Picks a randomly selected driver from the above 
     
 	document.getElementById("driverImage").src = randomPortrait.picture;
 	document.getElementById("driverLink").href = randomPortrait.link;
-	document.getElementById("driverName").innerHTML = randomPortrait.name;
+	document.getElementById("driverName").innerHTML = "Name: " + randomPortrait.name;
     } replaceDriverSrc();
 
 function nextRace() {

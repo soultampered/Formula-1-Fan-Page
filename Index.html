@@ -5,12 +5,13 @@
 	<meta name="description" content="A Formula 1 Fan Page, used to showcase FE dev skills">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/IndexStyles.css">
+	<link rel="stylesheet" type="text/css" href="css/HeaderStyles.css">
 	<title>Formula 1 Fan Page</title>
 
 </head>
 
 <body>
-	<div class="site">
+	<div class="wrapper">
 		<header class="mastHead"><!--Contains the Sports Logo and Navigation Menu-->
 			<div class="headerLogo">
 				<a href="index.html">
@@ -39,35 +40,37 @@
 			</div>
 		</header>
 
-		<aside class="showcase">
-			<div class="contentShowcase">
-	 		<h2>Driver Showcase</h2><!--displays a randomly selected driver from current lineup-->
-			<a id="driverLink" href="" title=""><img id="driverImage" src="" alt="showdriver"></a>
-			<h3 id="driverName"></h3>
-			<p>"Lorem ipsum"</p>
-			<p>"Lorem ipsum dolor sit amet"</p>
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-		</div>
-		<div class="contentShowcase">
-			<h2>Next Race</h2><!--displays The Next Race-->
-			<a id="raceLink" href="" title=""><img id="raceFlag" src="" alt="nextRace"></a>
-	        <h3 id="raceName"></h3>
-			<p>"Lorem ipsum"</p>
-			<p>"Lorem ipsum dolor sit amet"</p>
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-	    </div>
-		</aside>
+		<div class="container">
+			<aside class="showcase">
+				<div class="contentShowcase">
+			 		<h2>Driver Showcase</h2><!--displays a randomly selected driver from current lineup-->
+					<a id="driverLink" href="" title=""><img id="driverImage" src="" alt="showdriver"></a>
+					<p id="driverName"></h3>
+					<p>"Lorem ipsum"</p>
+					<p>"Lorem ipsum dolor sit amet"</p>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+				</div>
+				<div class="contentShowcase">
+					<h2>Next Race</h2><!--displays The Next Race-->
+					<a id="raceLink" href="" title=""><img id="raceFlag" src="" alt="nextRace"></a>
+			        <p id="raceName"> Name:</h3>
+					<p>"Lorem ipsum"</p>
+					<p>"Lorem ipsum dolor sit amet"</p>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+			    </div>
+			</aside>
 
-		<main class="news-area">
-			<div>
-				<h2><a>Formula 1 News</a></h2>
-					<a href="html/WilliamsInvestment.html" title="williams-sale-serious-people-brawn">
-			 			<img class="imgstyle" src="Media/William_F1.jpg" alt="williamsinvest">
-			 		<h3>"Serious people" considering Williams investment" - Brawn</h3>
-			 			<p><span>deputy team principal Claire Williams has insisted that the Grove outfit has the funds...</span></p>
-			 		</a>
-			 </div>
-		</main>
+			<main class="news-area">
+				<div>
+					<h2><a>Formula 1 News</a></h2>
+						<a href="html/WilliamsInvestment.html" title="williams-sale-serious-people-brawn">
+				 			<img class="imgstyle" src="Media/William_F1.jpg" alt="williamsinvest">
+				 		<h3>"Serious people" considering Williams investment" - Brawn</h3>
+				 			<p><span>deputy team principal Claire Williams has insisted that the Grove outfit has the funds...</span></p>
+				 		</a>
+				 </div>
+			</main>
+		</div>
 		
 		<footer class="footerstyles">
 			<aside><!--Ad Stuff.  Link to Google-->
@@ -88,7 +91,7 @@
 			</div>
 		</footer>
 		<!--JS Script to randomize showcased drivers-->
-	<script type="text/Javascript" src="Javascript/Showcase.js"></script>
-</div>
+		<script type="text/Javascript" src="Javascript/Showcase.js"></script>
+	</div>
 </body>
 </html>
