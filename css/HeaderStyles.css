@@ -49,3 +49,17 @@
 .navItems:hover {
 	background-color: #bdb6ae;
 }
+
+
+
+
+/* ------ */
+/* Championship Styles */
+
+table {
+	color: white;
+}
+td, th {
+	text-align: left;
+	padding: 5px 10px;
+}

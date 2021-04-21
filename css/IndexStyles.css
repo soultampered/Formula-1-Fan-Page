@@ -81,13 +81,17 @@ a:active {
 	position: relative;
 	float: left;
 	margin: auto;
-	width: 50%;
-
+	width: 48%;
+	border: 5px solid #242424;
+	border-radius: 10px;
 }
+.contentShowcase:nth-child(2) {
+	float: right;
+}
+
 .showcase {
 	display: inline-block;
 	margin: 5px 0;
-	background: #ac9ce2;
 }
 
 .news-area {
