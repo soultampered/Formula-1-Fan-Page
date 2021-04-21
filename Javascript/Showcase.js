@@ -258,20 +258,18 @@ function replaceDriverSrc() { //Picks a randomly selected driver from the above 
 function nextRace() {
     var dateObj = new Date();
     var currentTime = dateObj.getTime();
-    var raceDate = raceObj.getTime();
-        for (var i = 0; i <= (venues.length-1); i++) { 
-                    if (currentTime <= raceDate) {
+        for (var i = 0; i <= (venues.length-1); i++) {
+            var raceDate = venues[i].raceDate 
+                if (currentTime <= raceDate.getTime()) {
                     document.getElementById("raceFlag").src = venues[i].flag;
                     document.getElementById("raceLink").href = venues[i].link;
                     document.getElementById("raceName").innerHTML = venues[i].raceTitle;
                     console.log(venues[i].raceTitle);
-                } else {                                   
+                    break;
+                } else {                                 
                     document.getElementById("raceFlag").src = endOfSeason.flag;
                     document.getElementById("raceLink").href = endOfSeason.link;
                     document.getElementById("raceName").innerHTML = endOfSeason.raceTitle;
-            }break;
+            }
         }
     } nextRace();
-
-
-
