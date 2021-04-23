@@ -215,9 +215,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagSpain.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Spain.html",
         raceDate: new Date("2021-05-09"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 66,
+        lapDistance: 4.675,
+        cornerCount: 16
     },
 
     {
@@ -225,9 +225,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagMonaco.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Monaco.html",
         raceDate: new Date("2021-05-23"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 78,
+        lapDistance: 3.337,
+        cornerCount: 19
     },
 
     {
@@ -235,9 +235,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagAzerbaijan.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Azerbaijan.html",
         raceDate: new Date("2021-06-14"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 51,
+        lapDistance: 6.003,
+        cornerCount: 20
     },
 
     {
@@ -245,9 +245,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagCanada.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Canada.html",
         raceDate: new Date("2021-06-13"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 70,
+        lapDistance: 4.361,
+        cornerCount: 14
     },
 
     {
@@ -255,9 +255,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagFrance.jpeg",
         link: "https://www.formula1.com/en/racing/2021/France.html",
         raceDate: new Date("2021-06-27"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 53,
+        lapDistance: 5.842,
+        cornerCount: 15
     },
 
     {
@@ -265,19 +265,19 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagAustria.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Austria.html",
         raceDate: new Date("2021-07-04"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 71,
+        lapDistance: 4.318,
+        cornerCount: 10
     },
 
     {
-        raceTitle: "Britain",
+        raceTitle: "Great Britain",
         flag: "Media/World_Flags/flagUnitedKingdom.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Great_Britain.html",
         raceDate: new Date("2021-07-18"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 52,
+        lapDistance: 5.891,
+        cornerCount: 18
     },
 
     {
@@ -285,9 +285,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagHungary.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Hungary.html",
         raceDate: new Date("2021-08-01"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 70,
+        lapDistance: 4.381,
+        cornerCount: 14
     },
 
     {
@@ -295,9 +295,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagBelgium.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Belgium.html",
         raceDate: new Date("2021-08-29"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 44,
+        lapDistance: 7.004,
+        cornerCount: 19
     },
 
     {
@@ -305,9 +305,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagNetherlands.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Netherlands.html",
         raceDate: new Date("2021-09-05"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 72,
+        lapDistance: 4.259,
+        cornerCount: 14
     },
 
     {
@@ -315,9 +315,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagItaly.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Italy.html",
         raceDate: new Date("2021-09-12"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 53,
+        lapDistance: 5.793,
+        cornerCount: 11
     },
 
     {
@@ -325,9 +325,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagRussia.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Russia.html",
         raceDate: new Date("2021-09-26"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 53,
+        lapDistance: 5.848,
+        cornerCount: 18
     },
 
     {
@@ -335,9 +335,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagSingapore.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Singapore.html",
         raceDate: new Date("2021-10-03"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 61,
+        lapDistance: 5.063,
+        cornerCount: 23
     },
 
     {
@@ -345,9 +345,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagJapan.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Japan.html",
         raceDate: new Date("2021-10-09"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 53,
+        lapDistance: 5.807,
+        cornerCount: 18
     },
 
     {
@@ -355,9 +355,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagUnitedStates.jpeg",
         link: "https://www.formula1.com/en/racing/2021/United_States.html",
         raceDate: new Date("2021-10-24"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 56,
+        lapDistance: 5.513,
+        cornerCount: 20
     },
 
     {
@@ -365,9 +365,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagMexico.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Mexico.html",
         raceDate: new Date("2021-10-31"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 71,
+        lapDistance: 4.304,
+        cornerCount: 17
     },
 
     {
@@ -375,9 +375,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagBrazil.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Brazil.html",
         raceDate: new Date("2021-11-07"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 71,
+        lapDistance: 4.309,
+        cornerCount: 15
     },
 
     {
@@ -385,9 +385,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagAustralia.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Australia.html",
         raceDate: new Date("2021-11-21"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 58,
+        lapDistance: 5.303,
+        cornerCount: 16
     },
 
     {
@@ -395,9 +395,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagSaudiArabia.jpeg",
         link: "https://www.formula1.com/en/racing/2021/Saudi_Arabia.html",
         raceDate: new Date("2021-12-05"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 50,
+        lapDistance: 6.175,
+        cornerCount: 27
     },
 
     {
@@ -405,9 +405,9 @@ var venues = [//List of Showcased Venues
         flag: "Media/World_Flags/flagAbuDhabi.jpeg",
         link: "https://www.formula1.com/en/racing/2021/United_Arab_Emirates.html",
         raceDate: new Date("2021-12-11"),
-        lapCount: 'placeholder',
-        lapDistance: 'placeholder',
-        cornerCount: 'placeholder'
+        lapCount: 55,
+        lapDistance: 5.554,
+        cornerCount: 21
     }
 ];
 var endOfSeason = { //Default Event Showcase display
@@ -423,10 +423,10 @@ function replaceDriverSrc() { //Picks a randomly selected driver from the above 
     
 	document.getElementById("driverImage").src = randomPortrait.picture;
 	document.getElementById("driverLink").href = randomPortrait.link;
-	document.getElementById("driverName").innerHTML = "Name: " + randomPortrait.name;
-    document.getElementById(id="driverAge").innerHTML = "Age: " + randomPortrait.age;
-    document.getElementById(id="driverTeam").innerHTML = "Team: " + randomPortrait.team;
-    document.getElementById(id="driverNation").innerHTML = "Nationality: " + randomPortrait.nationality;
+	document.getElementById("driverName").innerHTML = 'Name: ' + randomPortrait.name;
+    document.getElementById(id="driverAge").innerHTML = 'Age: ' + randomPortrait.age;
+    document.getElementById(id="driverTeam").innerHTML = 'Team: ' + randomPortrait.team;
+    document.getElementById(id="driverNation").innerHTML = 'Nationality: ' + randomPortrait.nationality;
     } replaceDriverSrc();
 
 function nextRace() {
@@ -437,10 +437,10 @@ function nextRace() {
                 if (currentTime <= raceDate.getTime()) {
                     document.getElementById('raceFlag').src = venues[i].flag;
                     document.getElementById('raceLink').href = venues[i].link;
-                    document.getElementById('raceName').innerHTML = "Country: " + venues[i].raceTitle;
-                    document.getElementById('lapCount').innerHTML = venues[i].lapCount;
-                    document.getElementById('lapDistance').innerHTML = venues[i].lapDistance + ' km';
-                    document.getElementById('cornerCount').innerHTML = venues[i].cornerCount;
+                    document.getElementById('raceName').innerHTML = 'Country: ' + venues[i].raceTitle;
+                    document.getElementById('lapCount').innerHTML = 'Total Laps: ' + venues[i].lapCount;
+                    document.getElementById('lapDistance').innerHTML = 'Lap Distance: ' + venues[i].lapDistance + ' km';
+                    document.getElementById('cornerCount').innerHTML = 'Total Corners: ' + venues[i].cornerCount;
                     break;
                 } else {                                 
                     document.getElementById("raceFlag").src = endOfSeason.flag;
