@@ -182,7 +182,7 @@ var drivers = [//List of Showcased Drivers
 var venues = [//List of Showcased Venues
     {
         raceTitle: "Bahrain",
-        flag: "Media/World_Flags/flagBahrain.jpeg",
+        flag: "Media/World_Flags/flagBahrain.png",
         link: "https://www.formula1.com/en/racing/2021/Bahrain.html",
         raceDate: new Date("2021-03-28"),
         lapCount: 57,
@@ -202,7 +202,7 @@ var venues = [//List of Showcased Venues
 
     {    
         raceTitle: "Portugal",
-        flag: "Media/World_Flags/flagChina.jpeg",
+        flag: "Media/World_Flags/flagPortugal.png",
         link: "https://www.formula1.com/en/racing/2021/Portugal.html",
         raceDate: new Date("2021-05-02"),
         lapCount: 66,
@@ -232,7 +232,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Azerbaijan",
-        flag: "Media/World_Flags/flagAzerbaijan.jpeg",
+        flag: "Media/World_Flags/flagAzerbaijan.png",
         link: "https://www.formula1.com/en/racing/2021/Azerbaijan.html",
         raceDate: new Date("2021-06-14"),
         lapCount: 51,
@@ -382,7 +382,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Australia",
-        flag: "Media/World_Flags/flagAustralia.jpeg",
+        flag: "Media/World_Flags/flagAustralia.png",
         link: "https://www.formula1.com/en/racing/2021/Australia.html",
         raceDate: new Date("2021-11-21"),
         lapCount: 58,

@@ -67,14 +67,23 @@ a:active {
 }
 #driverImage {
 	float: left;
-	height: 100px;
+	height: 140px;
+	margin: 5px;
 }
+
+.driverInfo, .raceInfo {
+	display: inline-block;
+	font-size: 18px;
+}
+
 #raceName {
 	display: inline-block;
 }
 #raceFlag {
 	float: left;
-	height: 100px;
+	height: 140px;
+	width: 250px;
+	margin: 5px;
 }
 .contentShowcase {
 	display: inline-block;
@@ -87,6 +96,9 @@ a:active {
 }
 .contentShowcase:nth-child(2) {
 	float: right;
+}
+.contentShowcase > h2 {
+	margin: 5px;
 }
 
 .showcase {
