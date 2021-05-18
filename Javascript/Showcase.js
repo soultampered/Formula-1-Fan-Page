@@ -4,7 +4,7 @@ var drivers = [//List of Showcased Drivers
         age: 39,
         team: 'Alpine',
         nationality: 'Spanish',
-    	picture: 'Media/Portraits/Albon_portrait.png',
+    	picture: 'Media/Portraits/Alonso_portrait.png',
     	link: 'https://www.formula1.com/en/drivers/fernando-alonso.html'
 	},
 
@@ -36,11 +36,11 @@ var drivers = [//List of Showcased Drivers
 	},
 
 	{
-        name: 'Nikita Mazipan',
+        name: 'Nikita Mazepin',
         age: 22,
         team: 'Haas',
         nationality: 'Russian',
-    	picture: 'Media/Portraits/Grosjean_portrait.png',
+    	picture: 'Media/Portraits/Mazepin_portrait.png',
     	link: 'https://www.formula1.com/en/drivers/nikita-mazipan.html'
 	},
 
@@ -58,7 +58,7 @@ var drivers = [//List of Showcased Drivers
         age: 20,
         team: 'Alpha Tauri',
         nationality: 'Japanese',
-    	picture: 'Media/Portraits/Kvyat_portrait.png',
+    	picture: 'Media/Portraits/Tsunoda_portrait.png',
     	link: 'https://www.formula1.com/en/drivers/Yuki-Tsunoda.html'
 	},
 
@@ -85,7 +85,7 @@ var drivers = [//List of Showcased Drivers
         age: 22,
         team: 'Haas',
         nationality: 'German',
-    	picture: 'Media/Portraits/Magnussen_portrait.png',
+    	picture: 'Media/Portraits/Schumacher_portrait.png',
     	link: 'https://www.formula1.com/en/drivers/mick-schumacher.html'
 	},
 

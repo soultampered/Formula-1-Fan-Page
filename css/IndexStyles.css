@@ -108,6 +108,7 @@ a:active {
 }
 
 .news-area {
+	display: inline-block;
 	background-color: #70bf40;
 	clear: both;
 }
@@ -118,6 +119,30 @@ a:active {
 	max-height: 500px;
 
 }
+
+/* Main Body styles */
+.firstArticle {
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin: auto;
+	width: 57%;
+
+}
+
+.articleSideList {
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin: auto;
+	width: 37%;
+
+}
+
+.sideList1 {
+
+}
+
 
 /* Footer Styles */
 .footerstyles {
