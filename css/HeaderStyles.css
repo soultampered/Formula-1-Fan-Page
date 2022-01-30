@@ -7,11 +7,15 @@
 
 #headerWrapper {
 	height: 71px;
+	width: 55%;
+	margin: auto;
+
 }
 
 .headerLogo {
 	display: inline-block;
     padding: 10px 0 5px 10px;
+    width:  21%;
 }
 
 .logoImage {
@@ -26,7 +30,8 @@
 
 .navBar {
 	height: 56px;
-display: inline-block;
+	display: inline-block;
+	width: 70%;
 }
 
 .navstyles {
@@ -46,10 +51,10 @@ display: inline-block;
 .loginPlaceholder {
 	display: inline-block;
     text-align: center;
-    padding: 24px 9px 24px 16px;
     font-weight: 400;
     font-size: 20px;
     background-color: #a22b2c;
+    width: 7%;
 }
 .loginBox {
 	display: inline-block;
