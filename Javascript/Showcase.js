@@ -182,29 +182,49 @@ var drivers = [//List of Showcased Drivers
 var venues = [//List of Showcased Venues
     {
         raceTitle: "Bahrain",
-        flag: "Media/World_Flags/flagBahrain.png",
-        link: "https://www.formula1.com/en/racing/2021/Bahrain.html",
-        raceDate: new Date("2021-03-28"),
+        flag: "Media/worldFlags/flagBahrain.jpg",
+        link: "https://www.formula1.com/en/racing/2022/Bahrain.html",
+        raceDate: new Date("2022-03-20"),
         lapCount: 57,
         lapDistance: 5.412,
         cornerCount: 15
     },
 
     {
+        raceTitle: "Saudi Arabia",
+        flag: "Media/worldFlags/flagSaudiArabia.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Saudi_Arabia.html",
+        raceDate: new Date("2022-03-27"),
+        lapCount: 50,
+        lapDistance: 6.175,
+        cornerCount: 27
+    },
+
+    {
+        raceTitle: "Australia",
+        flag: "Media/worldFlags/flagAustralia.png",
+        link: "https://www.formula1.com/en/racing/2022/Australia.html",
+        raceDate: new Date("2022-04-10"),
+        lapCount: 58,
+        lapDistance: 5.303,
+        cornerCount: 16
+    },
+
+    {
         raceTitle: "San_Marino",
-        flag: "Media/World_Flags/flagItaly.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Imola.html",
-        raceDate: new Date("2021-04-18"),
+        flag: "Media/worldFlags/flagItaly.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Imola.html",
+        raceDate: new Date("2022-04-24"),
         lapCount: 63,
         lapDistance: 4.909, 
         cornerCount: 19
     },
 
     {    
-        raceTitle: "Portugal",
-        flag: "Media/World_Flags/flagPortugal.png",
-        link: "https://www.formula1.com/en/racing/2021/Portugal.html",
-        raceDate: new Date("2021-05-02"),
+        raceTitle: "United States",
+        flag: "Media/worldFlags/flagUnitedStates.png",
+        link: "https://www.formula1.com/en/racing/2022/Miami.html",
+        raceDate: new Date("2022-05-08"),
         lapCount: 66,
         lapDistance: 4.653,
         cornerCount: 15
@@ -212,9 +232,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Spain",
-        flag: "Media/World_Flags/flagSpain.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Spain.html",
-        raceDate: new Date("2021-05-09"),
+        flag: "Media/worldFlags/flagSpain.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Spain.html",
+        raceDate: new Date("2022-05-22"),
         lapCount: 66,
         lapDistance: 4.675,
         cornerCount: 16
@@ -222,9 +242,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Monaco",
-        flag: "Media/World_Flags/flagMonaco.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Monaco.html",
-        raceDate: new Date("2021-05-23"),
+        flag: "Media/worldFlags/flagMonaco.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Monaco.html",
+        raceDate: new Date("2022-05-29"),
         lapCount: 78,
         lapDistance: 3.337,
         cornerCount: 19
@@ -232,9 +252,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Azerbaijan",
-        flag: "Media/World_Flags/flagAzerbaijan.png",
-        link: "https://www.formula1.com/en/racing/2021/Azerbaijan.html",
-        raceDate: new Date("2021-06-14"),
+        flag: "Media/worldFlags/flagAzerbaijan.png",
+        link: "https://www.formula1.com/en/racing/2022/Azerbaijan.html",
+        raceDate: new Date("2022-06-12"),
         lapCount: 51,
         lapDistance: 6.003,
         cornerCount: 20
@@ -242,49 +262,49 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Canada",
-        flag: "Media/World_Flags/flagCanada.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Canada.html",
-        raceDate: new Date("2021-06-13"),
+        flag: "Media/worldFlags/flagCanada.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Canada.html",
+        raceDate: new Date("2022-06-19"),
         lapCount: 70,
         lapDistance: 4.361,
         cornerCount: 14
     },
 
     {
-        raceTitle: "France",
-        flag: "Media/World_Flags/flagFrance.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/France.html",
-        raceDate: new Date("2021-06-27"),
-        lapCount: 53,
-        lapDistance: 5.842,
-        cornerCount: 15
-    },
-
-    {
-        raceTitle: "Austria",
-        flag: "Media/World_Flags/flagAustria.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Austria.html",
-        raceDate: new Date("2021-07-04"),
-        lapCount: 71,
-        lapDistance: 4.318,
-        cornerCount: 10
-    },
-
-    {
         raceTitle: "Great Britain",
-        flag: "Media/World_Flags/flagUnitedKingdom.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Great_Britain.html",
-        raceDate: new Date("2021-07-18"),
+        flag: "Media/worldFlags/flagUnitedKingdom.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Great_Britain.html",
+        raceDate: new Date("2022-07-03"),
         lapCount: 52,
         lapDistance: 5.891,
         cornerCount: 18
     },
 
     {
+        raceTitle: "Austria",
+        flag: "Media/worldFlags/flagAustria.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Austria.html",
+        raceDate: new Date("2022-07-10"),
+        lapCount: 71,
+        lapDistance: 4.318,
+        cornerCount: 10
+    },
+
+    {
+        raceTitle: "France",
+        flag: "Media/worldFlags/flagFrance.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/France.html",
+        raceDate: new Date("2022-07-24"),
+        lapCount: 53,
+        lapDistance: 5.842,
+        cornerCount: 15
+    },
+
+    {
         raceTitle: "Hungary",
-        flag: "Media/World_Flags/flagHungary.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Hungary.html",
-        raceDate: new Date("2021-08-01"),
+        flag: "Media/worldFlags/flagHungary.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Hungary.html",
+        raceDate: new Date("2022-07-31"),
         lapCount: 70,
         lapDistance: 4.381,
         cornerCount: 14
@@ -292,9 +312,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Belgium",
-        flag: "Media/World_Flags/flagBelgium.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Belgium.html",
-        raceDate: new Date("2021-08-29"),
+        flag: "Media/worldFlags/flagBelgium.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Belgium.html",
+        raceDate: new Date("2022-08-28"),
         lapCount: 44,
         lapDistance: 7.004,
         cornerCount: 19
@@ -302,9 +322,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Netherlands",
-        flag: "Media/World_Flags/flagNetherlands.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Netherlands.html",
-        raceDate: new Date("2021-09-05"),
+        flag: "Media/worldFlags/flagNetherlands.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Netherlands.html",
+        raceDate: new Date("2022-10-04"),
         lapCount: 72,
         lapDistance: 4.259,
         cornerCount: 14
@@ -312,9 +332,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Italy",
-        flag: "Media/World_Flags/flagItaly.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Italy.html",
-        raceDate: new Date("2021-09-12"),
+        flag: "Media/worldFlags/flagItaly.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Italy.html",
+        raceDate: new Date("2022-09-11"),
         lapCount: 53,
         lapDistance: 5.793,
         cornerCount: 11
@@ -322,9 +342,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Russia",
-        flag: "Media/World_Flags/flagRussia.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Russia.html",
-        raceDate: new Date("2021-09-26"),
+        flag: "Media/worldFlags/flagRussia.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Russia.html",
+        raceDate: new Date("2022-09-25"),
         lapCount: 53,
         lapDistance: 5.848,
         cornerCount: 18
@@ -332,9 +352,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Singapore",
-        flag: "Media/World_Flags/flagSingapore.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Singapore.html",
-        raceDate: new Date("2021-10-03"),
+        flag: "Media/worldFlags/flagSingapore.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Singapore.html",
+        raceDate: new Date("2022-10-02"),
         lapCount: 61,
         lapDistance: 5.063,
         cornerCount: 23
@@ -342,9 +362,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Japan",
-        flag: "Media/World_Flags/flagJapan.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Japan.html",
-        raceDate: new Date("2021-10-09"),
+        flag: "Media/worldFlags/flagJapan.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Japan.html",
+        raceDate: new Date("2022-10-09"),
         lapCount: 53,
         lapDistance: 5.807,
         cornerCount: 18
@@ -352,9 +372,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "United States",
-        flag: "Media/World_Flags/flagUnitedStates.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/United_States.html",
-        raceDate: new Date("2021-10-24"),
+        flag: "Media/worldFlags/flagUnitedStates.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/United_States.html",
+        raceDate: new Date("2022-10-23"),
         lapCount: 56,
         lapDistance: 5.513,
         cornerCount: 20
@@ -362,9 +382,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Mexico",
-        flag: "Media/World_Flags/flagMexico.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Mexico.html",
-        raceDate: new Date("2021-10-31"),
+        flag: "Media/worldFlags/flagMexico.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Mexico.html",
+        raceDate: new Date("2022-10-30"),
         lapCount: 71,
         lapDistance: 4.304,
         cornerCount: 17
@@ -372,39 +392,19 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Brazil",
-        flag: "Media/World_Flags/flagBrazil.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Brazil.html",
-        raceDate: new Date("2021-11-07"),
+        flag: "Media/worldFlags/flagBrazil.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/Brazil.html",
+        raceDate: new Date("2022-11-13"),
         lapCount: 71,
         lapDistance: 4.309,
         cornerCount: 15
     },
 
     {
-        raceTitle: "Australia",
-        flag: "Media/World_Flags/flagAustralia.png",
-        link: "https://www.formula1.com/en/racing/2021/Australia.html",
-        raceDate: new Date("2021-11-21"),
-        lapCount: 58,
-        lapDistance: 5.303,
-        cornerCount: 16
-    },
-
-    {
-        raceTitle: "Saudi Arabia",
-        flag: "Media/World_Flags/flagSaudiArabia.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/Saudi_Arabia.html",
-        raceDate: new Date("2021-12-05"),
-        lapCount: 50,
-        lapDistance: 6.175,
-        cornerCount: 27
-    },
-
-    {
         raceTitle: "Abu Dhabi",
-        flag: "Media/World_Flags/flagAbuDhabi.jpeg",
-        link: "https://www.formula1.com/en/racing/2021/United_Arab_Emirates.html",
-        raceDate: new Date("2021-12-11"),
+        flag: "Media/worldFlags/flagAbuDhabi.jpeg",
+        link: "https://www.formula1.com/en/racing/2022/United_Arab_Emirates.html",
+        raceDate: new Date("2021-11-20"),
         lapCount: 55,
         lapDistance: 5.554,
         cornerCount: 21
