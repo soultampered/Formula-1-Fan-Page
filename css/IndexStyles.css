@@ -49,17 +49,9 @@ a:active {
 	display: block;
 }
 
-.flagePlaceholder {
-    background-color: #a22b2c;
-    display: inline-block;
-    width: 20%;
-    padding: 85px 30px;
-    border-radius: 100%;
-}
 
-
-/* Main Body Styles */
-.container {
+/* Showcase Styles */
+.showcaseContainer {
 	min-width: 991px;
     max-width: 1323px;
     width: 96%;
@@ -129,12 +121,13 @@ a:active {
 	margin: 5px 0;
 }
 
+
+/* Main Body styles */
 .news-area {
 	display: inline-block;
 	background-color: #70bf40;
 	clear: both;
 }
-
 
 .imgstyle {
 	max-width: 700px;
@@ -142,7 +135,6 @@ a:active {
 
 }
 
-/* Main Body styles */
 .firstArticle {
 	display: inline-block;
 	position: relative;
