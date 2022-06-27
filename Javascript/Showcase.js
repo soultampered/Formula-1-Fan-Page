@@ -5,16 +5,18 @@ var drivers = [//List of Showcased Drivers
         team: 'Alpine',
         nationality: 'Spanish',
     	picture: 'Media/Portraits/Alonso_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/fernando-alonso.html'
+    	link: 'https://www.formula1.com/en/drivers/fernando-alonso.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagSpain.jpeg"
 	},
 
 	{
         name: 'Valtteri Bottas',
         age: 31,
-        team: 'Mercedes',
+        team: 'Alfa Romeo',
         nationality: 'Finnish',
     	picture: 'Media/Portraits/Bottas_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/valtteri-bottas.html'
+    	link: 'https://www.formula1.com/en/drivers/valtteri-bottas.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagFinland.png"
 	},
 
 	{
@@ -23,25 +25,28 @@ var drivers = [//List of Showcased Drivers
         team: 'Alpha Tauri',
         nationality: 'French',
     	picture: 'Media/Portraits/Gasly_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/pierre-gasly.html'
+    	link: 'https://www.formula1.com/en/drivers/pierre-gasly.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagFrance.jpeg"
 	},
 
 	{
-        name: 'Antonino Giovinazzi',
+        name: 'Zhou Guyanu',
         age: 27,
         team: 'Alfa Romeo',
-        nationality: 'Italian',
-    	picture: 'Media/Portraits/Giovinazzi_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/antonio-giovinazzi.html'
+        nationality: 'Chinese',
+    	picture: 'Media/Portraits/Zhou_portrait.png',
+    	link: 'https://www.formula1.com/en/drivers/guanyu-zhou.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagChina.jpeg"
 	},
 
 	{
-        name: 'Nikita Mazepin',
-        age: 22,
+        name: 'Kevin Magnussen',
+        age: 29,
         team: 'Haas',
-        nationality: 'Russian',
-    	picture: 'Media/Portraits/Mazepin_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/nikita-mazipan.html'
+        nationality: 'Danish',
+    	picture: 'Media/Portraits/Magnussen_portrait.png',
+    	link: 'https://www.formula1.com/en/drivers/kevin-magnussen.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagDenmark.png"
 	},
 
 	{
@@ -50,7 +55,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Mercedes',
         nationality: 'British',
     	picture: 'Media/Portraits/Hamilton_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/lewis-hamilton.html'
+    	link: 'https://www.formula1.com/en/drivers/lewis-hamilton.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagUnitedKingdom.jpeg"
 	},
 
 	{
@@ -59,7 +65,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Alpha Tauri',
         nationality: 'Japanese',
     	picture: 'Media/Portraits/Tsunoda_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/Yuki-Tsunoda.html'
+    	link: 'https://www.formula1.com/en/drivers/Yuki-Tsunoda.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagJapan.png"
 	},
 
 	{
@@ -68,7 +75,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Williams',
         nationality: 'Canadian',
     	picture: 'Media/Portraits/Latifi_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/nicholas-latifi.html'
+    	link: 'https://www.formula1.com/en/drivers/nicholas-latifi.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagCanada.jpeg"
 	},
 
 	{
@@ -77,7 +85,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Ferrari',
         nationality: 'Monagasque',
     	picture: 'Media/Portraits/Leclerc_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/charles-leclerc.html'
+    	link: 'https://www.formula1.com/en/drivers/charles-leclerc.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagMonaco.jpeg"
 	},
 
 	{
@@ -86,7 +95,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Haas',
         nationality: 'German',
     	picture: 'Media/Portraits/Schumacher_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/mick-schumacher.html'
+    	link: 'https://www.formula1.com/en/drivers/mick-schumacher.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagGermany.png"
 	},
 
 	{
@@ -95,7 +105,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Mclaren',
         nationality: 'British',
     	picture: 'Media/Portraits/Norris_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/lando-norris.html'
+    	link: 'https://www.formula1.com/en/drivers/lando-norris.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagUnitedKingdom.jpeg"
 	},
 
 	{
@@ -104,7 +115,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Alpine',
         nationality: 'French',
     	picture: 'Media/Portraits/Ocon_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/esteban-ocon.html'
+    	link: 'https://www.formula1.com/en/drivers/esteban-ocon.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagFrance.jpeg"
 	},
 
 	{
@@ -113,16 +125,18 @@ var drivers = [//List of Showcased Drivers
         team: 'Red Bull',
         nationality: 'Mexican',
     	picture: 'Media/Portraits/Perez_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/sergio-perez.html'
+    	link: 'https://www.formula1.com/en/drivers/sergio-perez.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagMexico.jpeg"
 	},
 
 	{
-        name: 'Kimi Raikkonen',
-        age: 41,
-        team: 'Alfa Romeo',
+        name: 'Alex Albon',
+        age: 26,
+        team: 'Williams',
         nationality: 'Finnish',
-    	picture: 'Media/Portraits/Raikkonen_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/kimi-raikkonen.html'
+    	picture: 'Media/Portraits/Albon_portrait.png',
+    	link: 'https://www.formula1.com/en/drivers/alex-albon.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagThailand.png"
 	},
 
 	{
@@ -131,7 +145,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Mclaren',
         nationality: 'Australian',
     	picture: 'Media/Portraits/Ricciardo_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/daniel-ricciardo.html'
+    	link: 'https://www.formula1.com/en/drivers/daniel-ricciardo.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagAustralia.png"
 	},
 
 	{
@@ -140,7 +155,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Williams',
         nationality: 'British',
     	picture: 'Media/Portraits/Russell_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/george-russell.html'
+    	link: 'https://www.formula1.com/en/drivers/george-russell.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagUnitedKingdom.jpeg"
 	},
 
 	{
@@ -149,7 +165,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Ferrari',
         nationality: 'Spanish',
     	picture: 'Media/Portraits/Sainz_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/carlos-sainz.html'
+    	link: 'https://www.formula1.com/en/drivers/carlos-sainz.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagSpain.jpeg"
 	},
 
 	{
@@ -158,7 +175,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Aston Martin',
         nationality: 'Canadian',
     	picture: 'Media/Portraits/Stroll_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/lance-stroll.html'
+    	link: 'https://www.formula1.com/en/drivers/lance-stroll.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagCanada.jpeg"
 	},
 
 	{
@@ -167,7 +185,8 @@ var drivers = [//List of Showcased Drivers
         team: 'Red Bull',
         nationality: 'Dutch',
     	picture: 'Media/Portraits/Verstappen_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/max-verstappen.html'
+    	link: 'https://www.formula1.com/en/drivers/max-verstappen.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagNetherlands.jpeg"
 	},
 
 	{
@@ -176,13 +195,15 @@ var drivers = [//List of Showcased Drivers
         team: 'Aston Martin',
         nationality: 'German',
     	picture: 'Media/Portraits/Vettel_portrait.png',
-    	link: 'https://www.formula1.com/en/drivers/sebastian-vettel.html'
+    	link: 'https://www.formula1.com/en/drivers/sebastian-vettel.html',
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagGermany.png"
 	}
 ];
 var venues = [//List of Showcased Venues
     {
         raceTitle: "Bahrain",
-        flag: "Media/worldFlags/flagBahrain.jpg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagBahrain.jpeg",
+        trace: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/trackOutline\/bahrainTrace.png",
         link: "https://www.formula1.com/en/racing/2022/Bahrain.html",
         raceDate: new Date("2022-03-20"),
         lapCount: 57,
@@ -192,7 +213,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Saudi Arabia",
-        flag: "Media/worldFlags/flagSaudiArabia.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagSaudiArabia.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Saudi_Arabia.html",
         raceDate: new Date("2022-03-27"),
         lapCount: 50,
@@ -202,7 +223,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Australia",
-        flag: "Media/worldFlags/flagAustralia.png",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagAustralia.png",
         link: "https://www.formula1.com/en/racing/2022/Australia.html",
         raceDate: new Date("2022-04-10"),
         lapCount: 58,
@@ -212,7 +233,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "San_Marino",
-        flag: "Media/worldFlags/flagItaly.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagItaly.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Imola.html",
         raceDate: new Date("2022-04-24"),
         lapCount: 63,
@@ -222,7 +243,7 @@ var venues = [//List of Showcased Venues
 
     {    
         raceTitle: "United States",
-        flag: "Media/worldFlags/flagUnitedStates.png",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagUnitedStates.png",
         link: "https://www.formula1.com/en/racing/2022/Miami.html",
         raceDate: new Date("2022-05-08"),
         lapCount: 66,
@@ -232,7 +253,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Spain",
-        flag: "Media/worldFlags/flagSpain.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagSpain.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Spain.html",
         raceDate: new Date("2022-05-22"),
         lapCount: 66,
@@ -242,7 +263,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Monaco",
-        flag: "Media/worldFlags/flagMonaco.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagMonaco.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Monaco.html",
         raceDate: new Date("2022-05-29"),
         lapCount: 78,
@@ -252,7 +273,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Azerbaijan",
-        flag: "Media/worldFlags/flagAzerbaijan.png",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagAzerbaijan.png",
         link: "https://www.formula1.com/en/racing/2022/Azerbaijan.html",
         raceDate: new Date("2022-06-12"),
         lapCount: 51,
@@ -262,7 +283,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Canada",
-        flag: "Media/worldFlags/flagCanada.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagCanada.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Canada.html",
         raceDate: new Date("2022-06-19"),
         lapCount: 70,
@@ -272,8 +293,9 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Great Britain",
-        flag: "Media/worldFlags/flagUnitedKingdom.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagUnitedKingdom.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Great_Britain.html",
+        trace:"C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/trackOutline\/Silverstone_trace.png",
         raceDate: new Date("2022-07-03"),
         lapCount: 52,
         lapDistance: 5.891,
@@ -282,7 +304,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Austria",
-        flag: "Media/worldFlags/flagAustria.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagAustria.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Austria.html",
         raceDate: new Date("2022-07-10"),
         lapCount: 71,
@@ -292,7 +314,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "France",
-        flag: "Media/worldFlags/flagFrance.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagFrance.jpeg",
         link: "https://www.formula1.com/en/racing/2022/France.html",
         raceDate: new Date("2022-07-24"),
         lapCount: 53,
@@ -302,7 +324,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Hungary",
-        flag: "Media/worldFlags/flagHungary.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagHungary.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Hungary.html",
         raceDate: new Date("2022-07-31"),
         lapCount: 70,
@@ -312,7 +334,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Belgium",
-        flag: "Media/worldFlags/flagBelgium.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagBelgium.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Belgium.html",
         raceDate: new Date("2022-08-28"),
         lapCount: 44,
@@ -322,7 +344,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Netherlands",
-        flag: "Media/worldFlags/flagNetherlands.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagNetherlands.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Netherlands.html",
         raceDate: new Date("2022-10-04"),
         lapCount: 72,
@@ -332,7 +354,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Italy",
-        flag: "Media/worldFlags/flagItaly.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagItaly.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Italy.html",
         raceDate: new Date("2022-09-11"),
         lapCount: 53,
@@ -342,7 +364,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Russia",
-        flag: "Media/worldFlags/flagRussia.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagRussia.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Russia.html",
         raceDate: new Date("2022-09-25"),
         lapCount: 53,
@@ -352,7 +374,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Singapore",
-        flag: "Media/worldFlags/flagSingapore.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagSingapore.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Singapore.html",
         raceDate: new Date("2022-10-02"),
         lapCount: 61,
@@ -362,7 +384,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Japan",
-        flag: "Media/worldFlags/flagJapan.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagJapan.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Japan.html",
         raceDate: new Date("2022-10-09"),
         lapCount: 53,
@@ -372,7 +394,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "United States",
-        flag: "Media/worldFlags/flagUnitedStates.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagUnitedStates.jpeg",
         link: "https://www.formula1.com/en/racing/2022/United_States.html",
         raceDate: new Date("2022-10-23"),
         lapCount: 56,
@@ -382,7 +404,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Mexico",
-        flag: "Media/worldFlags/flagMexico.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagMexico.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Mexico.html",
         raceDate: new Date("2022-10-30"),
         lapCount: 71,
@@ -392,7 +414,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Brazil",
-        flag: "Media/worldFlags/flagBrazil.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagBrazil.jpeg",
         link: "https://www.formula1.com/en/racing/2022/Brazil.html",
         raceDate: new Date("2022-11-13"),
         lapCount: 71,
@@ -402,7 +424,7 @@ var venues = [//List of Showcased Venues
 
     {
         raceTitle: "Abu Dhabi",
-        flag: "Media/worldFlags/flagAbuDhabi.jpeg",
+        flag: "C:\/Users\/unfor\/Documents\/GitHub\/Formula-1-Fan-Page\/Media\/worldFlags\/flagAbuDhabi.jpeg",
         link: "https://www.formula1.com/en/racing/2022/United_Arab_Emirates.html",
         raceDate: new Date("2021-11-20"),
         lapCount: 55,
@@ -421,12 +443,13 @@ function replaceDriverSrc() { //Picks a randomly selected driver from the above 
     var randomPick = Math.floor(Math.random() * Math.floor(drivers.length));
     var randomPortrait = drivers[randomPick];
     
-	document.getElementById("driverImage").src = randomPortrait.picture;
-	document.getElementById("driverLink").href = randomPortrait.link;
-	document.getElementById("driverName").innerHTML = 'Name: ' + randomPortrait.name;
-    document.getElementById(id="driverAge").innerHTML = 'Age: ' + randomPortrait.age;
-    document.getElementById(id="driverTeam").innerHTML = 'Team: ' + randomPortrait.team;
-    document.getElementById(id="driverNation").innerHTML = 'Nationality: ' + randomPortrait.nationality;
+	$("#driverImage").attr('src', randomPortrait.picture);
+	$("#driverLink").attr('href', randomPortrait.link);
+	$("#driverName").html('Name: ' + randomPortrait.name);
+    $("#driverAge").html('Age: ' + randomPortrait.age);
+    $("#driverTeam").html('Team: ' + randomPortrait.team);
+    $("#driverNation").html('Nationality: ' + randomPortrait.nationality);
+    $("#driverFlag").attr('src', randomPortrait.flag);
     } replaceDriverSrc();
 
 function nextRace() {
@@ -435,17 +458,18 @@ function nextRace() {
         for (var i = 0; i <= (venues.length-1); i++) {
             var raceDate = venues[i].raceDate 
                 if (currentTime <= raceDate.getTime()) {
-                    document.getElementById('raceFlag').src = venues[i].flag;
-                    document.getElementById('raceLink').href = venues[i].link;
-                    document.getElementById('raceName').innerHTML = 'Country: ' + venues[i].raceTitle;
-                    document.getElementById('lapCount').innerHTML = 'Total Laps: ' + venues[i].lapCount;
-                    document.getElementById('lapDistance').innerHTML = 'Lap Distance: ' + venues[i].lapDistance + ' km';
-                    document.getElementById('cornerCount').innerHTML = 'Total Corners: ' + venues[i].cornerCount;
+                    $("#raceFlag").attr('src', venues[i].flag);
+                    $('#raceLink').attr('href', venues[i].link);
+                    $('#raceName').html(venues[i].raceTitle);
+                    $('#trackTrace').attr('src', venues[i].trace);
+                    $('#lapCount').html('Total Laps: ' + venues[i].lapCount);
+                    $('#lapDistance').html('Lap Distance: ' + venues[i].lapDistance + ' km');
+                    $('#cornerCount').html('Total Corners: ' + venues[i].cornerCount);
                     break;
                 } else {                                 
-                    document.getElementById("raceFlag").src = endOfSeason.flag;
-                    document.getElementById("raceLink").href = endOfSeason.link;
-                    document.getElementById("raceName").innerHTML = endOfSeason.raceTitle;
+                    $("raceFlag").attr('src', endOfSeason.flag);
+                    $("raceLink").attr('href', endOfSeason.link);
+                    $("raceName").html(endOfSeason.raceTitle);
             }
         }
     } nextRace();

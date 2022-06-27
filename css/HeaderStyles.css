@@ -35,7 +35,7 @@
 }
 
 .navstyles {
-
+    font-family:  Arial, Helvetica, sans-serif;
 }
 
 .navItems {
@@ -51,6 +51,7 @@
 .loginPlaceholder {
 	display: inline-block;
     text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 20px;
     background-color: #a22b2c;

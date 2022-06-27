@@ -45,7 +45,12 @@
 			<aside class="showcase">
 				<div class="contentShowcase">
 			 		<h2>Driver Showcase</h2>
-			 		<a id="driverLink" href="" title=""><img id="driverImage" src="" alt="showdriver"></a>
+			 		<div class="raceFlagIcon">
+						<a id="raceLink" href="" title=""><img id="driverFlag" src="" alt="nextRace"></a>
+					</div>
+					<div class="raceTrace">
+						<a id="driverLink" href="" title=""><img id="driverImage" src="" alt="showdriver"></a>
+					</div>
 			 		<div class="driverInfo">
 						<p id="driverName"></p>
 						<p id="driverAge"></p>
@@ -55,7 +60,12 @@
 				</div>
 				<div class="contentShowcase">
 					<h2>Next Race</h2>
-					<a id="raceLink" href="" title=""><img id="raceFlag" src="" alt="nextRace"></a>
+					<div class="raceFlagIcon">
+						<a id="raceLink" href="" title=""><img id="raceFlag" src="" alt="nextRace"></a>
+					</div>
+					<div class="raceTrace">
+						<a id="raceLink" href="" title=""><img id="trackTrace" src="" alt="nextRace"></a>
+					</div>
 					<div class="raceInfo">
 				        <p id="raceName"></p>
 						<p id="lapCount"></p>
@@ -107,8 +117,9 @@
 				</div>
 			</footer> -->
 		</div>
-		<!--JS Script to randomize showcased drivers-->
+		<script type="text/Javascript" src="Javascript/jquery-3.5.1.min.js"></script>
 		<script type="text/Javascript" src="Javascript/Showcase.js"></script>
+
 	</div>
 </body>
 </html>
