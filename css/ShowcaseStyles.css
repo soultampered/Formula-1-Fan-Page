@@ -44,8 +44,8 @@
 }
 
 .contentShowcase {
+	white-space: nowrap;
 	font-family: Arial, Helvetica, sans-serif;
-	display: inline-block;
 	position: relative;
 	float: left;
 	margin: auto;

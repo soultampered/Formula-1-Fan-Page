@@ -1,17 +1,17 @@
 document.querySelectorAll(".carousel").forEach(carousel => {
 	const items = carousel.querySelectorAll(".carousel_item");
 	const buttonsHtml = Array.from(items, () => {
-		return `<span class="carousel_btn></span>`;
+		return `<span class="carousel_btn"></span>`;
 	});
-
 
 	carousel.insertAdjacentHTML("beforeend", `
 		<div class="carousel_nav">
-			${buttonsHtml.join("")}
+			${ buttonsHtml.join("") }
 		</div>
 		`);
 
-	const buttons = carousel.querySelectorAll("carousel_btn");
+	const buttons = carousel.querySelectorAll(".carousel_btn");
+	console.log(buttons);
 
 	buttons.forEach((button, i) => {
 		button.addEventListener("click", () => {
@@ -20,7 +20,10 @@ document.querySelectorAll(".carousel").forEach(carousel => {
 			buttons.forEach(button => button.classList.remove("carousel_btn--selected"));
 
 			items[i].classList.add("carousel_item--selected");
-			button[i].classList.add("carousel_btn--selected");
+			button.classList.add("carousel_btn--selected");
 		});
 	});
+
+	items[0].classList.add("carousel_item--selected");
+	buttons[0].classList.add("carousel_btn--selected");
 });
