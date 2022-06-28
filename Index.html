@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/IndexStyles.css">
 	<link rel="stylesheet" type="text/css" href="css/HeaderStyles.css">
 	<link rel="stylesheet" type="text/css" href="css/ShowcaseStyles.css">
+	<link rel="stylesheet" type="text/css" href="css/CarouselStyles.css">
 	<title>Formula 1 Fan Page</title>
 
 </head>
@@ -43,41 +44,55 @@
 			</div>
 		</header>
 			<div class="showcaseContainer">
-			<aside class="showcase">
-				<div class="contentShowcase">
-			 		<h2>Driver Showcase</h2>
-			 		<div class="raceFlagIcon">
-						<a id="raceLink" href="" title=""><img id="driverFlag" src="" alt="nextRace"></a>
+				<aside class="showcase">
+					<div class="contentShowcase">
+				 		<h2>Driver Showcase</h2>
+				 		<div class="raceFlagIcon">
+							<a id="raceLink" href="" title=""><img id="driverFlag" src="" alt="nextRace"></a>
+						</div>
+						<div class="raceTrace">
+							<a id="driverLink" href="" title=""><img id="driverImage" src="" alt="showdriver"></a>
+						</div>
+				 		<div class="driverInfo">
+							<p id="driverName"></p>
+							<p id="driverAge"></p>
+							<p id="driverTeam"></p>
+							<p id="driverNation"></p>
+						</div>
 					</div>
-					<div class="raceTrace">
-						<a id="driverLink" href="" title=""><img id="driverImage" src="" alt="showdriver"></a>
-					</div>
-			 		<div class="driverInfo">
-						<p id="driverName"></p>
-						<p id="driverAge"></p>
-						<p id="driverTeam"></p>
-						<p id="driverNation"></p>
-					</div>
-				</div>
-				<div class="contentShowcase">
-					<h2>Next Race</h2>
-					<div class="raceFlagIcon">
-						<a id="raceLink" href="" title=""><img id="raceFlag" src="" alt="nextRace"></a>
-					</div>
-					<div class="raceTrace">
-						<a id="raceLink" href="" title=""><img id="trackTrace" src="" alt="nextRace"></a>
-					</div>
-					<div class="raceInfo">
-				        <p id="raceName"></p>
-						<p id="lapCount"></p>
-						<p id="lapDistance"></p>
-						<p id="cornerCount"></p>
-					</div>
-			    </div>
-			</aside>
+					<div class="contentShowcase">
+						<h2>Next Race</h2>
+						<div class="raceFlagIcon">
+							<a id="raceLink" href="" title=""><img id="raceFlag" src="" alt="nextRace"></a>
+						</div>
+						<div class="raceTrace">
+							<a id="raceLink" href="" title=""><img id="trackTrace" src="" alt="nextRace"></a>
+						</div>
+						<div class="raceInfo">
+					        <p id="raceName"></p>
+							<p id="lapCount"></p>
+							<p id="lapDistance"></p>
+							<p id="cornerCount"></p>
+						</div>
+				    </div>
+				</aside>
+			</div>
 
-			<!-- <main class="news-area">
-				<div class="firstArticle">
+			<div class="carousel">
+				<div class="carousel_item">Content #1</div>
+				<div class="carousel_item">Content #2</div>
+				<div class="carousel_item">Content #3</div>
+				<div class="carousel_item">Content #4</div>
+<!-- 				<div class="carousel_nav">
+					<span class="carousel_btn"></span>
+					<span class="carousel_btn"></span>
+					<span class="carousel_btn"></span>
+					<span class="carousel_btn"></span>
+				</div>	 -->
+			</div>
+
+			<main class="news-area">
+<!-- 				<div class="firstArticle">
 					<h2><a>Formula 1 News</a></h2>
 						<a href="html/WilliamsInvestment.html" title="williams-sale-serious-people-brawn">
 							<h3>"Serious people" considering Williams investment" - Brawn</h3>
@@ -95,11 +110,11 @@
 					 <div style="background-color: purple;" class="sideList1">
 					 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed gravida ex. Sed ligula elit</p>
 					 </div>
-				 </div>
+				 </div> -->
 			</main>
 
 			
-			<footer class="footerstyles">
+<!-- 			<footer class="footerstyles">
 				<aside>
 					<a href="https://www.google.ca" title="Demo add stuff not real">
 						<img src="Media/ad_stuff.png" alt="footerad">
@@ -120,6 +135,7 @@
 		</div>
 		<script type="text/Javascript" src="Javascript/jquery-3.5.1.min.js"></script>
 		<script type="text/Javascript" src="Javascript/Showcase.js"></script>
+		<script type="text/Javascript" src="Javascript/Carousel.js"></script>
 
 	</div>
 </body>
