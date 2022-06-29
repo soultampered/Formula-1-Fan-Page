@@ -27,9 +27,10 @@
 	display: inline-block;
 }
 #raceFlag, #driverFlag {
-    border-radius: 100%;
+    border-radius: 50%;
     height: 150px;
     width: 150px;
+	object-fit: cover;
 }
 
 .raceTrace {
@@ -61,6 +62,8 @@
 }
 .contentShowcase > h2 {
 	margin: 5px;
+
+
 }
 
 .showcase {
