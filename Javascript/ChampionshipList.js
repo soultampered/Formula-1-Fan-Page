@@ -1,5 +1,5 @@
 
-
+//WIP not functional
 var points = [
 	{	
 		finishedPosition: 1,

@@ -1,16 +1,12 @@
 .carousel {
-	position: relative;
-    min-width: 900px;
+    position: relative;
     max-width: 1323px;
-    width: 48%;
-    margin: 0 0 0 26px;
+    width: 34%;
 }
 
 .carousel_item {
 	display: none;
 	height: 300px;
-	background: dimgrey;
-	padding: 1em;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 	font-size: 2em;
@@ -50,7 +46,6 @@
 	border: none;
 	font-size: 4rem;
 	top: 50%;
-	height: 75%;
 	z-index: 2;
 	transform: translateY(-50%);
 	color: rgba(255, 255, 255, .5);
@@ -75,4 +70,10 @@
 
 .carousel_btn.next {
 	right: 1rem;
+}
+
+.carousel_image {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
 }

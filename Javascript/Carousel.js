@@ -22,7 +22,30 @@ document.querySelectorAll(".carousel").forEach(carousel => {
 			button.classList.add("carousel_pin--selected");
 		});
 	});
-
 	items[0].classList.add("carousel_item--selected");
 	buttons[0].classList.add("carousel_pin--selected");
 });
+
+
+
+const navButtons = document.querySelectorAll("[data-carousel-button]");
+navButtons.forEach((button => {
+	button.addEventListener("click", () => {
+		const offset = button.dataset.carouselButton === 'next' ? 1 : -1;
+		const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
+		console.log(slides);
+		
+		const activeSlide = slides.querySelector("[data-active]");
+		let newIndex = [...slides.children].indexOf(activeSlide) + offset
+
+		if (newIndex < 0) {
+			newIndex = slides.children.length - 1
+		} else if (newIndex >= slides.children.length) {
+			newIndex = 0
+		}
+
+		slides.children[newIndex].dataset.active = true
+		
+		delete activeSlide.dataset.active;
+	});
+}));

@@ -79,13 +79,23 @@
 				</aside>
 			</div>
 
-			<div class="carousel">
-				<button class="carousel_btn prev">&#x21e6;</button>
-				<button class="carousel_btn next">&#x21e8;</button>
-				<div class="carousel_item">Content #1</div>
-				<div class="carousel_item">Content #2</div>
-				<div class="carousel_item">Content #3</div>
-				<div class="carousel_item">Content #4</div>
+			<div class="carousel" data-carousel>
+				<button class="carousel_btn prev" data-carousel-button="prev">&#x21e6;</button>
+				<button class="carousel_btn next" data-carousel-button="next">&#x21e8;</button>
+				<ul data-slides>
+					<li class="carousel_item" data-active>
+						<img class="carousel_image" src="Media/Belgium_f1.jpg" alt="Belgian GP">
+					</li>
+					<li class="carousel_item">
+						<img class="carousel_image" src="Media/Redbull_f1.jpg" alt="Belgian GP">
+					</li>
+					<li class="carousel_item">
+						<img class="carousel_image" src="Media/William_F1.jpg" alt="Belgian GP">
+					</li>
+					<li class="carousel_item">
+						<img class="carousel_image" src="Media/Hungary_f1.jpg" alt="Belgian GP">
+					</li>
+				</ul>
 			</div>
 <!-- 				<div class="firstArticle">
 					<h2><a>Formula 1 News</a></h2>

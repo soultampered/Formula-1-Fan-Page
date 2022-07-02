@@ -1,5 +1,5 @@
 //Checks Contact form validity
-
+//WIP, not functional
 var inputFields = document.mainForm.getElementsByTagName('input');
 
 for (key in inputFields) {
