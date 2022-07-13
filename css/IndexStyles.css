@@ -91,6 +91,17 @@ a:active {
 
 }
 
+.showcase, .newContent {
+	display: flex;
+	width: 100%;
+}
+
+.new_content_container {
+	min-width: 1145px;
+    max-width: 1323px;
+    width: 100%;
+    margin: auto;
+}
 
 /* Footer Styles */
 .footerstyles {

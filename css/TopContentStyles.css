@@ -1,0 +1,27 @@
+
+
+
+.top_content_container {
+    position: relative;
+    height: 364px;
+    width: 34%;
+    float: right;
+    border: 5px solid #242424;
+    border-radius: 10px;
+    margin: 10px 0 10px 20px;
+	background-color: #10193c;
+}
+
+.top_content_list {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.top_content_item {
+	flex: 1 1 auto;
+    border: 1px solid #242424;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 1.2;
+}

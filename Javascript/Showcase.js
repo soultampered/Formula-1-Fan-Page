@@ -449,6 +449,8 @@ var endOfSeason = { //Default Event Showcase display
         raceDate: "N/A"
 };
 
+
+//refactor to remove jQuery
 function replaceDriverSrc() { //Picks a randomly selected driver from the above list
     var randomPick = Math.floor(Math.random() * Math.floor(drivers.length));
     var randomPortrait = drivers[randomPick];
@@ -462,6 +464,8 @@ function replaceDriverSrc() { //Picks a randomly selected driver from the above 
     $("#driverFlag").attr('src', randomPortrait.flag);
     } replaceDriverSrc();
 
+
+    //investigate why the date function seems slightly off
 function nextRace() {
     var dateObj = new Date();
     var currentTime = dateObj.getTime();

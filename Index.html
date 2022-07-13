@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/HeaderStyles.css">
 	<link rel="stylesheet" type="text/css" href="css/ShowcaseStyles.css">
 	<link rel="stylesheet" type="text/css" href="css/CarouselStyles.css">
+	<link rel="stylesheet" type="text/css" href="css/TopContentStyles.css">
 	<title>Formula 1 Fan Page</title>
 
 </head>
@@ -78,26 +79,28 @@
 				    </div>
 				</aside>
 			</div>
-				<div class="carousel" >
-					<button class="carousel_btn carousel_btn--prev is_hidden">&#x21e6;</button>
-					<button class="carousel_btn carousel_btn--next">&#x21e8;</button>
-	
-					<div class="carousel_track_container">
-						<ul class="carousel_track">
-							<li class="carousel_slide current_slide">
-								<img class="carousel_image" src="Media/Belgium_f1.jpg" alt="Belgian GP">
-							</li>
-							<li class="carousel_slide">
-								<img class="carousel_image" src="Media/Redbull_f1.jpg" alt="Red Bull">
-							</li>
-							<li class="carousel_slide">
-								<img class="carousel_image" src="Media/William_F1.jpg" alt="Williams F1">
-							</li>
-							<li class="carousel_slide">
-								<img class="carousel_image" src="Media/Hungary_f1.jpg" alt="Hungarian GP">
-							</li>
-						</ul>
-					</div>
+			<div class="new_content_container">
+				<aside class="newContent">
+					<div class="carousel" >
+						<button class="carousel_btn carousel_btn--prev is_hidden">&#x21e6;</button>
+						<button class="carousel_btn carousel_btn--next">&#x21e8;</button>
+		
+						<div class="carousel_track_container">
+							<ul class="carousel_track">
+								<li class="carousel_slide current_slide">
+									<img class="carousel_image" src="Media/Belgium_f1.jpg" alt="Belgian GP">
+								</li>
+								<li class="carousel_slide">
+									<img class="carousel_image" src="Media/Redbull_f1.jpg" alt="Red Bull">
+								</li>
+								<li class="carousel_slide">
+									<img class="carousel_image" src="Media/William_F1.jpg" alt="Williams F1">
+								</li>
+								<li class="carousel_slide">
+									<img class="carousel_image" src="Media/Hungary_f1.jpg" alt="Hungarian GP">
+								</li>
+							</ul>
+						</div>
 						<div class="carousel_nav">
 							<button class="carousel_pin current_slide"></button>
 							<button class="carousel_pin"></button>
@@ -105,7 +108,43 @@
 							<button class="carousel_pin"></button>
 						</div>
 					</div>
-				</div>
+					<div class="top_content_container">
+						<ul class="top_content_list">
+							<li class="top_content_item">
+								<a href="Index.html">
+									<span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+								</a>
+							</li>
+							<li class="top_content_item">
+								<a href="Index.html">
+									<span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+								</a>
+							</li>
+							<li class="top_content_item">
+								<a href="Index.html">
+									<span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+								</a>
+							</li>
+							<li class="top_content_item">
+								<a href="Index.html">
+									<span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+								</a>
+							</li>
+							<li class="top_content_item">
+								<a href="Index.html">
+									<span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+								</a>
+							</li>
+							<li class="top_content_item">
+								<a href="Index.html">
+									<span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</aside>
+			</div>
+		</div>
 <!-- 				<div class="firstArticle">
 					<h2><a>Formula 1 News</a></h2>
 						<a href="html/WilliamsInvestment.html" title="williams-sale-serious-people-brawn">
@@ -148,6 +187,10 @@
 			</footer> -->
 		</div>
 		<script type="text/Javascript" src="Javascript/jquery-3.5.1.min.js"></script>
+		<script type="text/Javascript" src="Javascript/Vue/vue.min.js"></script>
+		<script type="text/Javascript" src="Javascript/Vue/driverFilter_template"></script>
+		<script type="text/Javascript" src="Javascript/Vue/driverFilter_vue"></script>
+		<script type="text/Javascript" src="https://unpkg.com/vue@3"></script>
 		<script type="text/Javascript" src="Javascript/Showcase.js"></script>
 		<script type="text/Javascript" src="Javascript/Carousel.js"></script>
 
