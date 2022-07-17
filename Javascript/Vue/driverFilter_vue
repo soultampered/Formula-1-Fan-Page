@@ -1,4 +1,4 @@
-import Vue from "./vue.min.js";
+// import Vue from "./vue.min.js";
 
 var app = new Vue({
  
