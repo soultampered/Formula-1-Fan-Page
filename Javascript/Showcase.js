@@ -473,7 +473,7 @@ function nextRace() {
             var raceDate = venues[i].raceDate 
                 if (currentTime <= raceDate.getTime()) {
                     $("#raceFlag").attr('src', venues[i].flag);
-                    $('#raceLink').attr('href', venues[i].link);
+                    $('.raceLink').attr('href', venues[i].link);
                     $('#raceName').html(venues[i].raceTitle);
                     $('#trackTrace').attr('src', venues[i].trace);
                     $('#lapCount').html('Total Laps: ' + venues[i].lapCount);
@@ -482,7 +482,7 @@ function nextRace() {
                     break;
                 } else {                                 
                     $("raceFlag").attr('src', endOfSeason.flag);
-                    $("raceLink").attr('href', endOfSeason.link);
+                    $(".raceLink").attr('href', endOfSeason.link);
                     $("raceName").html(endOfSeason.raceTitle);
             }
         }

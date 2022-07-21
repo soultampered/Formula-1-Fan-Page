@@ -78,19 +78,6 @@ a:active {
 
 }
 
-.articleSideList {
-	display: inline-block;
-	position: relative;
-	float: right;
-	margin: auto;
-	width: 37%;
-
-}
-
-.sideList1 {
-
-}
-
 .showcase, .newContent {
 	display: flex;
 	width: 100%;
